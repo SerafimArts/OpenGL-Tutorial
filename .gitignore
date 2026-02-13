@@ -1,0 +1,21 @@
+# IDE
+/.idea
+/.cursor
+
+# Composer
+/composer.phar
+/composer.lock
+/vendor
+
+# Other
+/var
+*.dll
+*.so
+*.dylib
+
+# Testing
+/test.php
+
+# Common
+.DS_Store
+Thumbs.db
