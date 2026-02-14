@@ -21,5 +21,4 @@ GLFWwindow* glfwCreateWindow(int width, int height, const char* title, GLFWmonit
 void glfwDestroyWindow(GLFWwindow* window);
 int glfwWindowShouldClose(GLFWwindow* window);
 void glfwPollEvents(void);
-void glfwMakeContextCurrent(GLFWwindow* window);
 void glfwSwapBuffers(GLFWwindow* window);

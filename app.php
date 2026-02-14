@@ -17,9 +17,6 @@ if (!$window) {
     exit(-1);
 }
 
-/* Make the window's context current */
-$glfw->glfwMakeContextCurrent($window);
-
 /* Loop until the user closes the window */
 while (!$glfw->glfwWindowShouldClose($window)) {
     /* Swap front and back buffers */
