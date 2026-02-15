@@ -3639,9009 +3639,12870 @@ function glfwCreateWindowSurface(mixed ...$args): mixed
 
 function glCullFace(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCULLFACEPROC', GLFW_INSTANCE->glfwGetProcAddress('glCullFace'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCULLFACEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCullFace'),
+    );
 
     return $function(...$args);
 }
 
 function glFrontFace(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRONTFACEPROC', GLFW_INSTANCE->glfwGetProcAddress('glFrontFace'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRONTFACEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFrontFace'),
+    );
 
     return $function(...$args);
 }
 
 function glHint(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLHINTPROC', GLFW_INSTANCE->glfwGetProcAddress('glHint'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLHINTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glHint'),
+    );
 
     return $function(...$args);
 }
 
 function glLineWidth(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLLINEWIDTHPROC', GLFW_INSTANCE->glfwGetProcAddress('glLineWidth'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLLINEWIDTHPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glLineWidth'),
+    );
 
     return $function(...$args);
 }
 
 function glPointSize(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPOINTSIZEPROC', GLFW_INSTANCE->glfwGetProcAddress('glPointSize'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPOINTSIZEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPointSize'),
+    );
 
     return $function(...$args);
 }
 
 function glPolygonMode(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPOLYGONMODEPROC', GLFW_INSTANCE->glfwGetProcAddress('glPolygonMode'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPOLYGONMODEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPolygonMode'),
+    );
 
     return $function(...$args);
 }
 
 function glScissor(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSCISSORPROC', GLFW_INSTANCE->glfwGetProcAddress('glScissor'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSCISSORPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glScissor'),
+    );
 
     return $function(...$args);
 }
 
 function glTexParameterf(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXPARAMETERFPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexParameterf'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXPARAMETERFPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexParameterf'),
+    );
 
     return $function(...$args);
 }
 
 function glTexParameterfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXPARAMETERFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexParameterfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXPARAMETERFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexParameterfv'),
+    );
 
     return $function(...$args);
 }
 
 function glTexParameteri(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXPARAMETERIPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexParameteri'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXPARAMETERIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexParameteri'),
+    );
 
     return $function(...$args);
 }
 
 function glTexParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glTexImage1D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXIMAGE1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexImage1D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXIMAGE1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexImage1D'),
+    );
 
     return $function(...$args);
 }
 
 function glTexImage2D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXIMAGE2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexImage2D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXIMAGE2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexImage2D'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glClear(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARPROC', GLFW_INSTANCE->glfwGetProcAddress('glClear'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClear'),
+    );
 
     return $function(...$args);
 }
 
 function glClearColor(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARCOLORPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearColor'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARCOLORPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearColor'),
+    );
 
     return $function(...$args);
 }
 
 function glClearStencil(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARSTENCILPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearStencil'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARSTENCILPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearStencil'),
+    );
 
     return $function(...$args);
 }
 
 function glClearDepth(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARDEPTHPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearDepth'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARDEPTHPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearDepth'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilMask(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILMASKPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilMask'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILMASKPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilMask'),
+    );
 
     return $function(...$args);
 }
 
 function glColorMask(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOLORMASKPROC', GLFW_INSTANCE->glfwGetProcAddress('glColorMask'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOLORMASKPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glColorMask'),
+    );
 
     return $function(...$args);
 }
 
 function glDepthMask(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEPTHMASKPROC', GLFW_INSTANCE->glfwGetProcAddress('glDepthMask'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEPTHMASKPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDepthMask'),
+    );
 
     return $function(...$args);
 }
 
 function glDisable(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDISABLEPROC', GLFW_INSTANCE->glfwGetProcAddress('glDisable'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDISABLEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDisable'),
+    );
 
     return $function(...$args);
 }
 
 function glEnable(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENABLEPROC', GLFW_INSTANCE->glfwGetProcAddress('glEnable'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENABLEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEnable'),
+    );
 
     return $function(...$args);
 }
 
 function glFinish(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFINISHPROC', GLFW_INSTANCE->glfwGetProcAddress('glFinish'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFINISHPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFinish'),
+    );
 
     return $function(...$args);
 }
 
 function glFlush(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFLUSHPROC', GLFW_INSTANCE->glfwGetProcAddress('glFlush'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFLUSHPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFlush'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendFunc(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDFUNCPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendFunc'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDFUNCPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendFunc'),
+    );
 
     return $function(...$args);
 }
 
 function glLogicOp(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLLOGICOPPROC', GLFW_INSTANCE->glfwGetProcAddress('glLogicOp'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLLOGICOPPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glLogicOp'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilFunc(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILFUNCPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilFunc'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILFUNCPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilFunc'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilOp(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILOPPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilOp'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILOPPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilOp'),
+    );
 
     return $function(...$args);
 }
 
 function glDepthFunc(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEPTHFUNCPROC', GLFW_INSTANCE->glfwGetProcAddress('glDepthFunc'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEPTHFUNCPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDepthFunc'),
+    );
 
     return $function(...$args);
 }
 
 function glPixelStoref(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPIXELSTOREFPROC', GLFW_INSTANCE->glfwGetProcAddress('glPixelStoref'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPIXELSTOREFPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPixelStoref'),
+    );
 
     return $function(...$args);
 }
 
 function glPixelStorei(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPIXELSTOREIPROC', GLFW_INSTANCE->glfwGetProcAddress('glPixelStorei'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPIXELSTOREIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPixelStorei'),
+    );
 
     return $function(...$args);
 }
 
 function glReadBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLREADBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glReadBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLREADBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glReadBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glReadPixels(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLREADPIXELSPROC', GLFW_INSTANCE->glfwGetProcAddress('glReadPixels'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLREADPIXELSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glReadPixels'),
+    );
 
     return $function(...$args);
 }
 
 function glGetBooleanv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETBOOLEANVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetBooleanv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETBOOLEANVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetBooleanv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetDoublev(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETDOUBLEVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetDoublev'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETDOUBLEVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetDoublev'),
+    );
 
     return $function(...$args);
 }
 
 function glGetError(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETERRORPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetError'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETERRORPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetError'),
+    );
 
     return $function(...$args);
 }
 
 function glGetFloatv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETFLOATVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetFloatv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETFLOATVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetFloatv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetIntegerv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETINTEGERVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetIntegerv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETINTEGERVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetIntegerv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetString(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSTRINGPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetString'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSTRINGPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetString'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTexImage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXIMAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTexImage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXIMAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTexImage'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTexParameterfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXPARAMETERFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTexParameterfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXPARAMETERFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTexParameterfv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTexParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTexParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTexParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTexLevelParameterfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXLEVELPARAMETERFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTexLevelParameterfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXLEVELPARAMETERFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTexLevelParameterfv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTexLevelParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXLEVELPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTexLevelParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXLEVELPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTexLevelParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glIsEnabled(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISENABLEDPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsEnabled'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISENABLEDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsEnabled'),
+    );
 
     return $function(...$args);
 }
 
 function glDepthRange(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEPTHRANGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glDepthRange'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEPTHRANGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDepthRange'),
+    );
 
     return $function(...$args);
 }
 
 function glViewport(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVIEWPORTPROC', GLFW_INSTANCE->glfwGetProcAddress('glViewport'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVIEWPORTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glViewport'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawArrays(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWARRAYSPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawArrays'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWARRAYSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawArrays'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawElements(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWELEMENTSPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawElements'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWELEMENTSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawElements'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPointerv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPOINTERVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPointerv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPOINTERVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPointerv'),
+    );
 
     return $function(...$args);
 }
 
 function glPolygonOffset(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPOLYGONOFFSETPROC', GLFW_INSTANCE->glfwGetProcAddress('glPolygonOffset'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPOLYGONOFFSETPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPolygonOffset'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTexImage1D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXIMAGE1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTexImage1D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXIMAGE1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTexImage1D'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTexImage2D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXIMAGE2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTexImage2D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXIMAGE2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTexImage2D'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTexSubImage1D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXSUBIMAGE1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTexSubImage1D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXSUBIMAGE1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTexSubImage1D'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTexSubImage2D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXSUBIMAGE2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTexSubImage2D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXSUBIMAGE2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTexSubImage2D'),
+    );
 
     return $function(...$args);
 }
 
 function glTexSubImage1D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXSUBIMAGE1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexSubImage1D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXSUBIMAGE1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexSubImage1D'),
+    );
 
     return $function(...$args);
 }
 
 function glTexSubImage2D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXSUBIMAGE2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexSubImage2D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXSUBIMAGE2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexSubImage2D'),
+    );
 
     return $function(...$args);
 }
 
 function glBindTexture(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDTEXTUREPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindTexture'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDTEXTUREPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindTexture'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteTextures(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETETEXTURESPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteTextures'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETETEXTURESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteTextures'),
+    );
 
     return $function(...$args);
 }
 
 function glGenTextures(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENTEXTURESPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenTextures'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENTEXTURESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenTextures'),
+    );
 
     return $function(...$args);
 }
 
 function glIsTexture(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISTEXTUREPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsTexture'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISTEXTUREPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsTexture'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawRangeElements(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWRANGEELEMENTSPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawRangeElements'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWRANGEELEMENTSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawRangeElements'),
+    );
 
     return $function(...$args);
 }
 
 function glTexImage3D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXIMAGE3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexImage3D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXIMAGE3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexImage3D'),
+    );
 
     return $function(...$args);
 }
 
 function glTexSubImage3D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXSUBIMAGE3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexSubImage3D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXSUBIMAGE3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexSubImage3D'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTexSubImage3D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXSUBIMAGE3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTexSubImage3D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXSUBIMAGE3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTexSubImage3D'),
+    );
 
     return $function(...$args);
 }
 
 function glActiveTexture(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLACTIVETEXTUREPROC', GLFW_INSTANCE->glfwGetProcAddress('glActiveTexture'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLACTIVETEXTUREPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glActiveTexture'),
+    );
 
     return $function(...$args);
 }
 
 function glSampleCoverage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSAMPLECOVERAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glSampleCoverage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSAMPLECOVERAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSampleCoverage'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTexImage3D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXIMAGE3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTexImage3D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXIMAGE3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTexImage3D'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTexImage2D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXIMAGE2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTexImage2D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXIMAGE2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTexImage2D'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTexImage1D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXIMAGE1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTexImage1D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXIMAGE1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTexImage1D'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTexSubImage3D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXSUBIMAGE3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTexSubImage3D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXSUBIMAGE3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTexSubImage3D'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTexSubImage2D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXSUBIMAGE2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTexSubImage2D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXSUBIMAGE2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTexSubImage2D'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTexSubImage1D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXSUBIMAGE1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTexSubImage1D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXSUBIMAGE1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTexSubImage1D'),
+    );
 
     return $function(...$args);
 }
 
 function glGetCompressedTexImage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETCOMPRESSEDTEXIMAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetCompressedTexImage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETCOMPRESSEDTEXIMAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetCompressedTexImage'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendFuncSeparate(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDFUNCSEPARATEPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendFuncSeparate'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDFUNCSEPARATEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendFuncSeparate'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawArrays(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWARRAYSPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawArrays'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWARRAYSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawArrays'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawElements(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWELEMENTSPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElements'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWELEMENTSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElements'),
+    );
 
     return $function(...$args);
 }
 
 function glPointParameterf(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPOINTPARAMETERFPROC', GLFW_INSTANCE->glfwGetProcAddress('glPointParameterf'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPOINTPARAMETERFPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPointParameterf'),
+    );
 
     return $function(...$args);
 }
 
 function glPointParameterfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPOINTPARAMETERFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPointParameterfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPOINTPARAMETERFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPointParameterfv'),
+    );
 
     return $function(...$args);
 }
 
 function glPointParameteri(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPOINTPARAMETERIPROC', GLFW_INSTANCE->glfwGetProcAddress('glPointParameteri'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPOINTPARAMETERIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPointParameteri'),
+    );
 
     return $function(...$args);
 }
 
 function glPointParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPOINTPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPointParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPOINTPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPointParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendColor(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDCOLORPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendColor'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDCOLORPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendColor'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendEquation(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDEQUATIONPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendEquation'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDEQUATIONPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendEquation'),
+    );
 
     return $function(...$args);
 }
 
 function glGenQueries(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENQUERIESPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenQueries'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENQUERIESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenQueries'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteQueries(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETEQUERIESPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteQueries'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETEQUERIESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteQueries'),
+    );
 
     return $function(...$args);
 }
 
 function glIsQuery(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISQUERYPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsQuery'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISQUERYPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsQuery'),
+    );
 
     return $function(...$args);
 }
 
 function glBeginQuery(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBEGINQUERYPROC', GLFW_INSTANCE->glfwGetProcAddress('glBeginQuery'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBEGINQUERYPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBeginQuery'),
+    );
 
     return $function(...$args);
 }
 
 function glEndQuery(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENDQUERYPROC', GLFW_INSTANCE->glfwGetProcAddress('glEndQuery'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENDQUERYPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEndQuery'),
+    );
 
     return $function(...$args);
 }
 
 function glGetQueryiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETQUERYIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetQueryiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETQUERYIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetQueryiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetQueryObjectiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETQUERYOBJECTIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetQueryObjectiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETQUERYOBJECTIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetQueryObjectiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetQueryObjectuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETQUERYOBJECTUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetQueryObjectuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETQUERYOBJECTUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetQueryObjectuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glBindBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteBuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETEBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteBuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETEBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteBuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glGenBuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenBuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenBuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glIsBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glBufferData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBUFFERDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glBufferData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBUFFERDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBufferData'),
+    );
 
     return $function(...$args);
 }
 
 function glBufferSubData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBUFFERSUBDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glBufferSubData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBUFFERSUBDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBufferSubData'),
+    );
 
     return $function(...$args);
 }
 
 function glGetBufferSubData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETBUFFERSUBDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetBufferSubData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETBUFFERSUBDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetBufferSubData'),
+    );
 
     return $function(...$args);
 }
 
 function glMapBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAPBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glMapBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAPBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMapBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glUnmapBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNMAPBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glUnmapBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNMAPBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUnmapBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glGetBufferParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETBUFFERPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetBufferParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETBUFFERPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetBufferParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetBufferPointerv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETBUFFERPOINTERVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetBufferPointerv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETBUFFERPOINTERVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetBufferPointerv'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendEquationSeparate(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDEQUATIONSEPARATEPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendEquationSeparate'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDEQUATIONSEPARATEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendEquationSeparate'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawBuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawBuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawBuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilOpSeparate(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILOPSEPARATEPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilOpSeparate'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILOPSEPARATEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilOpSeparate'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilFuncSeparate(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILFUNCSEPARATEPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilFuncSeparate'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILFUNCSEPARATEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilFuncSeparate'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilMaskSeparate(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILMASKSEPARATEPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilMaskSeparate'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILMASKSEPARATEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilMaskSeparate'),
+    );
 
     return $function(...$args);
 }
 
 function glAttachShader(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLATTACHSHADERPROC', GLFW_INSTANCE->glfwGetProcAddress('glAttachShader'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLATTACHSHADERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glAttachShader'),
+    );
 
     return $function(...$args);
 }
 
 function glBindAttribLocation(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDATTRIBLOCATIONPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindAttribLocation'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDATTRIBLOCATIONPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindAttribLocation'),
+    );
 
     return $function(...$args);
 }
 
 function glCompileShader(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPILESHADERPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompileShader'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPILESHADERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompileShader'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateProgram(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATEPROGRAMPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateProgram'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATEPROGRAMPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateProgram'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateShader(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATESHADERPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateShader'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATESHADERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateShader'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteProgram(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETEPROGRAMPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteProgram'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETEPROGRAMPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteProgram'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteShader(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETESHADERPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteShader'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETESHADERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteShader'),
+    );
 
     return $function(...$args);
 }
 
 function glDetachShader(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDETACHSHADERPROC', GLFW_INSTANCE->glfwGetProcAddress('glDetachShader'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDETACHSHADERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDetachShader'),
+    );
 
     return $function(...$args);
 }
 
 function glDisableVertexAttribArray(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDISABLEVERTEXATTRIBARRAYPROC', GLFW_INSTANCE->glfwGetProcAddress('glDisableVertexAttribArray'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDISABLEVERTEXATTRIBARRAYPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDisableVertexAttribArray'),
+    );
 
     return $function(...$args);
 }
 
 function glEnableVertexAttribArray(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENABLEVERTEXATTRIBARRAYPROC', GLFW_INSTANCE->glfwGetProcAddress('glEnableVertexAttribArray'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENABLEVERTEXATTRIBARRAYPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEnableVertexAttribArray'),
+    );
 
     return $function(...$args);
 }
 
 function glGetActiveAttrib(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETACTIVEATTRIBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetActiveAttrib'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETACTIVEATTRIBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetActiveAttrib'),
+    );
 
     return $function(...$args);
 }
 
 function glGetActiveUniform(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETACTIVEUNIFORMPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetActiveUniform'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETACTIVEUNIFORMPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetActiveUniform'),
+    );
 
     return $function(...$args);
 }
 
 function glGetAttachedShaders(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETATTACHEDSHADERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetAttachedShaders'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETATTACHEDSHADERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetAttachedShaders'),
+    );
 
     return $function(...$args);
 }
 
 function glGetAttribLocation(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETATTRIBLOCATIONPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetAttribLocation'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETATTRIBLOCATIONPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetAttribLocation'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramInfoLog(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMINFOLOGPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramInfoLog'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMINFOLOGPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramInfoLog'),
+    );
 
     return $function(...$args);
 }
 
 function glGetShaderiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSHADERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetShaderiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSHADERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetShaderiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetShaderInfoLog(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSHADERINFOLOGPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetShaderInfoLog'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSHADERINFOLOGPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetShaderInfoLog'),
+    );
 
     return $function(...$args);
 }
 
 function glGetShaderSource(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSHADERSOURCEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetShaderSource'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSHADERSOURCEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetShaderSource'),
+    );
 
     return $function(...$args);
 }
 
 function glGetUniformLocation(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETUNIFORMLOCATIONPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetUniformLocation'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETUNIFORMLOCATIONPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetUniformLocation'),
+    );
 
     return $function(...$args);
 }
 
 function glGetUniformfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETUNIFORMFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetUniformfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETUNIFORMFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetUniformfv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetUniformiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETUNIFORMIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetUniformiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETUNIFORMIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetUniformiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexAttribdv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXATTRIBDVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribdv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXATTRIBDVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribdv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexAttribfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXATTRIBFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXATTRIBFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribfv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexAttribiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXATTRIBIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXATTRIBIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexAttribPointerv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXATTRIBPOINTERVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribPointerv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXATTRIBPOINTERVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribPointerv'),
+    );
 
     return $function(...$args);
 }
 
 function glIsProgram(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISPROGRAMPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsProgram'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISPROGRAMPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsProgram'),
+    );
 
     return $function(...$args);
 }
 
 function glIsShader(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISSHADERPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsShader'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISSHADERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsShader'),
+    );
 
     return $function(...$args);
 }
 
 function glLinkProgram(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLLINKPROGRAMPROC', GLFW_INSTANCE->glfwGetProcAddress('glLinkProgram'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLLINKPROGRAMPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glLinkProgram'),
+    );
 
     return $function(...$args);
 }
 
 function glShaderSource(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSHADERSOURCEPROC', GLFW_INSTANCE->glfwGetProcAddress('glShaderSource'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSHADERSOURCEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glShaderSource'),
+    );
 
     return $function(...$args);
 }
 
 function glUseProgram(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUSEPROGRAMPROC', GLFW_INSTANCE->glfwGetProcAddress('glUseProgram'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUSEPROGRAMPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUseProgram'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1f(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1FPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1f'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1FPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1f'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2f(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2FPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2f'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2FPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2f'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3f(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3FPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3f'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3FPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3f'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4f(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4FPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4f'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4FPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4f'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1i(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1IPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1i'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1IPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1i'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2i(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2IPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2i'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2IPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2i'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3i(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3IPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3i'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3IPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3i'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4i(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4IPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4i'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4IPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4i'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1fv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2fv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3fv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4fv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1iv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2iv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3iv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4iv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix2fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX2FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix2fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX2FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix2fv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix3fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX3FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix3fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX3FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix3fv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix4fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX4FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix4fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX4FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix4fv'),
+    );
 
     return $function(...$args);
 }
 
 function glValidateProgram(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVALIDATEPROGRAMPROC', GLFW_INSTANCE->glfwGetProcAddress('glValidateProgram'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVALIDATEPROGRAMPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glValidateProgram'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib1d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib1d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib1d'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib1dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB1DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib1dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB1DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib1dv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib1f(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB1FPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib1f'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB1FPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib1f'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib1fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB1FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib1fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB1FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib1fv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib1s(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB1SPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib1s'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB1SPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib1s'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib1sv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB1SVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib1sv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB1SVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib1sv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib2d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib2d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib2d'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib2dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB2DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib2dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB2DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib2dv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib2f(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB2FPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib2f'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB2FPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib2f'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib2fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB2FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib2fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB2FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib2fv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib2s(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB2SPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib2s'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB2SPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib2s'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib2sv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB2SVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib2sv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB2SVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib2sv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib3d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib3d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib3d'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib3dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB3DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib3dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB3DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib3dv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib3f(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB3FPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib3f'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB3FPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib3f'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib3fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB3FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib3fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB3FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib3fv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib3s(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB3SPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib3s'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB3SPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib3s'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib3sv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB3SVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib3sv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB3SVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib3sv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4Nbv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4NBVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Nbv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4NBVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Nbv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4Niv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4NIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Niv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4NIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Niv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4Nsv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4NSVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Nsv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4NSVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Nsv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4Nub(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4NUBPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Nub'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4NUBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Nub'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4Nubv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4NUBVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Nubv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4NUBVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Nubv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4Nuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4NUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Nuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4NUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Nuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4Nusv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4NUSVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Nusv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4NUSVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4Nusv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4bv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4BVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4bv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4BVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4bv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4DPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4d'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4dv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4f(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4FPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4f'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4FPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4f'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4fv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4iv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4s(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4SPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4s'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4SPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4s'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4sv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4SVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4sv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4SVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4sv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4ubv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4UBVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4ubv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4UBVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4ubv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttrib4usv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIB4USVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4usv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIB4USVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttrib4usv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribPointer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBPOINTERPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribPointer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBPOINTERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribPointer'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix2x3fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX2X3FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix2x3fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX2X3FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix2x3fv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix3x2fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX3X2FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix3x2fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX3X2FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix3x2fv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix2x4fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX2X4FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix2x4fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX2X4FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix2x4fv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix4x2fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX4X2FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix4x2fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX4X2FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix4x2fv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix3x4fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX3X4FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix3x4fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX3X4FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix3x4fv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix4x3fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX4X3FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix4x3fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX4X3FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix4x3fv'),
+    );
 
     return $function(...$args);
 }
 
 function glColorMaski(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOLORMASKIPROC', GLFW_INSTANCE->glfwGetProcAddress('glColorMaski'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOLORMASKIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glColorMaski'),
+    );
 
     return $function(...$args);
 }
 
 function glGetBooleani_v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETBOOLEANI_VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetBooleani_v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETBOOLEANI_VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetBooleani_v'),
+    );
 
     return $function(...$args);
 }
 
 function glGetIntegeri_v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETINTEGERI_VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetIntegeri_v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETINTEGERI_VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetIntegeri_v'),
+    );
 
     return $function(...$args);
 }
 
 function glEnablei(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENABLEIPROC', GLFW_INSTANCE->glfwGetProcAddress('glEnablei'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENABLEIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEnablei'),
+    );
 
     return $function(...$args);
 }
 
 function glDisablei(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDISABLEIPROC', GLFW_INSTANCE->glfwGetProcAddress('glDisablei'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDISABLEIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDisablei'),
+    );
 
     return $function(...$args);
 }
 
 function glIsEnabledi(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISENABLEDIPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsEnabledi'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISENABLEDIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsEnabledi'),
+    );
 
     return $function(...$args);
 }
 
 function glBeginTransformFeedback(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBEGINTRANSFORMFEEDBACKPROC', GLFW_INSTANCE->glfwGetProcAddress('glBeginTransformFeedback'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBEGINTRANSFORMFEEDBACKPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBeginTransformFeedback'),
+    );
 
     return $function(...$args);
 }
 
 function glEndTransformFeedback(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENDTRANSFORMFEEDBACKPROC', GLFW_INSTANCE->glfwGetProcAddress('glEndTransformFeedback'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENDTRANSFORMFEEDBACKPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEndTransformFeedback'),
+    );
 
     return $function(...$args);
 }
 
 function glBindBufferRange(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDBUFFERRANGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindBufferRange'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDBUFFERRANGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindBufferRange'),
+    );
 
     return $function(...$args);
 }
 
 function glBindBufferBase(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDBUFFERBASEPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindBufferBase'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDBUFFERBASEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindBufferBase'),
+    );
 
     return $function(...$args);
 }
 
 function glTransformFeedbackVaryings(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTRANSFORMFEEDBACKVARYINGSPROC', GLFW_INSTANCE->glfwGetProcAddress('glTransformFeedbackVaryings'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTRANSFORMFEEDBACKVARYINGSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTransformFeedbackVaryings'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTransformFeedbackVarying(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTRANSFORMFEEDBACKVARYINGPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTransformFeedbackVarying'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTRANSFORMFEEDBACKVARYINGPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTransformFeedbackVarying'),
+    );
 
     return $function(...$args);
 }
 
 function glClampColor(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLAMPCOLORPROC', GLFW_INSTANCE->glfwGetProcAddress('glClampColor'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLAMPCOLORPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClampColor'),
+    );
 
     return $function(...$args);
 }
 
 function glBeginConditionalRender(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBEGINCONDITIONALRENDERPROC', GLFW_INSTANCE->glfwGetProcAddress('glBeginConditionalRender'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBEGINCONDITIONALRENDERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBeginConditionalRender'),
+    );
 
     return $function(...$args);
 }
 
 function glEndConditionalRender(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENDCONDITIONALRENDERPROC', GLFW_INSTANCE->glfwGetProcAddress('glEndConditionalRender'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENDCONDITIONALRENDERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEndConditionalRender'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribIPointer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBIPOINTERPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribIPointer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBIPOINTERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribIPointer'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexAttribIiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXATTRIBIIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribIiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXATTRIBIIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribIiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexAttribIuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXATTRIBIUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribIuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXATTRIBIUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribIuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI1i(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI1IPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI1i'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI1IPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI1i'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI2i(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI2IPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI2i'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI2IPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI2i'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI3i(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI3IPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI3i'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI3IPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI3i'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI4i(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI4IPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4i'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI4IPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4i'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI1ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI1UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI1ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI1UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI1ui'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI2ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI2UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI2ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI2UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI2ui'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI3ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI3UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI3ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI3UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI3ui'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI4ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI4UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI4UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4ui'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI1iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI1IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI1iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI1IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI1iv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI2iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI2IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI2iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI2IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI2iv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI3iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI3IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI3iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI3IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI3iv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI4iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI4IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI4IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4iv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI1uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI1UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI1uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI1UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI1uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI2uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI2UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI2uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI2UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI2uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI3uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI3UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI3uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI3UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI3uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI4uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI4UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI4UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI4bv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI4BVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4bv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI4BVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4bv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI4sv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI4SVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4sv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI4SVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4sv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI4ubv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI4UBVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4ubv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI4UBVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4ubv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribI4usv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBI4USVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4usv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBI4USVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribI4usv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetUniformuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETUNIFORMUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetUniformuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETUNIFORMUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetUniformuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glBindFragDataLocation(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDFRAGDATALOCATIONPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindFragDataLocation'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDFRAGDATALOCATIONPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindFragDataLocation'),
+    );
 
     return $function(...$args);
 }
 
 function glGetFragDataLocation(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETFRAGDATALOCATIONPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetFragDataLocation'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETFRAGDATALOCATIONPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetFragDataLocation'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1ui'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2ui'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3ui'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4ui'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glTexParameterIiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXPARAMETERIIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexParameterIiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXPARAMETERIIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexParameterIiv'),
+    );
 
     return $function(...$args);
 }
 
 function glTexParameterIuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXPARAMETERIUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexParameterIuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXPARAMETERIUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexParameterIuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTexParameterIiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXPARAMETERIIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTexParameterIiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXPARAMETERIIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTexParameterIiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTexParameterIuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXPARAMETERIUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTexParameterIuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXPARAMETERIUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTexParameterIuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glClearBufferiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARBUFFERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearBufferiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARBUFFERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearBufferiv'),
+    );
 
     return $function(...$args);
 }
 
 function glClearBufferuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARBUFFERUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearBufferuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARBUFFERUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearBufferuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glClearBufferfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARBUFFERFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearBufferfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARBUFFERFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearBufferfv'),
+    );
 
     return $function(...$args);
 }
 
 function glClearBufferfi(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARBUFFERFIPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearBufferfi'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARBUFFERFIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearBufferfi'),
+    );
 
     return $function(...$args);
 }
 
 function glGetStringi(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSTRINGIPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetStringi'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSTRINGIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetStringi'),
+    );
 
     return $function(...$args);
 }
 
 function glIsRenderbuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISRENDERBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsRenderbuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISRENDERBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsRenderbuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glBindRenderbuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDRENDERBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindRenderbuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDRENDERBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindRenderbuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteRenderbuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETERENDERBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteRenderbuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETERENDERBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteRenderbuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glGenRenderbuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENRENDERBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenRenderbuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENRENDERBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenRenderbuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glRenderbufferStorage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLRENDERBUFFERSTORAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glRenderbufferStorage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLRENDERBUFFERSTORAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glRenderbufferStorage'),
+    );
 
     return $function(...$args);
 }
 
 function glGetRenderbufferParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETRENDERBUFFERPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetRenderbufferParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETRENDERBUFFERPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetRenderbufferParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glIsFramebuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISFRAMEBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsFramebuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISFRAMEBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsFramebuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glBindFramebuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDFRAMEBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindFramebuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDFRAMEBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindFramebuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteFramebuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETEFRAMEBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteFramebuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETEFRAMEBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteFramebuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glGenFramebuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENFRAMEBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenFramebuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENFRAMEBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenFramebuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glCheckFramebufferStatus(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCHECKFRAMEBUFFERSTATUSPROC', GLFW_INSTANCE->glfwGetProcAddress('glCheckFramebufferStatus'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCHECKFRAMEBUFFERSTATUSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCheckFramebufferStatus'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferTexture1D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERTEXTURE1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTexture1D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERTEXTURE1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTexture1D'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferTexture2D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERTEXTURE2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTexture2D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERTEXTURE2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTexture2D'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferTexture3D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERTEXTURE3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTexture3D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERTEXTURE3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTexture3D'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferRenderbuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERRENDERBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferRenderbuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERRENDERBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferRenderbuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glGetFramebufferAttachmentParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETFRAMEBUFFERATTACHMENTPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetFramebufferAttachmentParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETFRAMEBUFFERATTACHMENTPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetFramebufferAttachmentParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glGenerateMipmap(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENERATEMIPMAPPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenerateMipmap'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENERATEMIPMAPPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenerateMipmap'),
+    );
 
     return $function(...$args);
 }
 
 function glBlitFramebuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLITFRAMEBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlitFramebuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLITFRAMEBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlitFramebuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glRenderbufferStorageMultisample(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLRENDERBUFFERSTORAGEMULTISAMPLEPROC', GLFW_INSTANCE->glfwGetProcAddress('glRenderbufferStorageMultisample'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLRENDERBUFFERSTORAGEMULTISAMPLEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glRenderbufferStorageMultisample'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferTextureLayer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERTEXTURELAYERPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTextureLayer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERTEXTURELAYERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTextureLayer'),
+    );
 
     return $function(...$args);
 }
 
 function glMapBufferRange(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAPBUFFERRANGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glMapBufferRange'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAPBUFFERRANGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMapBufferRange'),
+    );
 
     return $function(...$args);
 }
 
 function glFlushMappedBufferRange(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFLUSHMAPPEDBUFFERRANGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glFlushMappedBufferRange'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFLUSHMAPPEDBUFFERRANGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFlushMappedBufferRange'),
+    );
 
     return $function(...$args);
 }
 
 function glBindVertexArray(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDVERTEXARRAYPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindVertexArray'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDVERTEXARRAYPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindVertexArray'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteVertexArrays(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETEVERTEXARRAYSPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteVertexArrays'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETEVERTEXARRAYSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteVertexArrays'),
+    );
 
     return $function(...$args);
 }
 
 function glGenVertexArrays(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENVERTEXARRAYSPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenVertexArrays'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENVERTEXARRAYSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenVertexArrays'),
+    );
 
     return $function(...$args);
 }
 
 function glIsVertexArray(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISVERTEXARRAYPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsVertexArray'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISVERTEXARRAYPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsVertexArray'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawArraysInstanced(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWARRAYSINSTANCEDPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawArraysInstanced'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWARRAYSINSTANCEDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawArraysInstanced'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawElementsInstanced(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWELEMENTSINSTANCEDPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsInstanced'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWELEMENTSINSTANCEDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsInstanced'),
+    );
 
     return $function(...$args);
 }
 
 function glTexBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glPrimitiveRestartIndex(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPRIMITIVERESTARTINDEXPROC', GLFW_INSTANCE->glfwGetProcAddress('glPrimitiveRestartIndex'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPRIMITIVERESTARTINDEXPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPrimitiveRestartIndex'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyBufferSubData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYBUFFERSUBDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyBufferSubData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYBUFFERSUBDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyBufferSubData'),
+    );
 
     return $function(...$args);
 }
 
 function glGetUniformIndices(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETUNIFORMINDICESPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetUniformIndices'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETUNIFORMINDICESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetUniformIndices'),
+    );
 
     return $function(...$args);
 }
 
 function glGetActiveUniformsiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETACTIVEUNIFORMSIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetActiveUniformsiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETACTIVEUNIFORMSIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetActiveUniformsiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetActiveUniformName(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETACTIVEUNIFORMNAMEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetActiveUniformName'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETACTIVEUNIFORMNAMEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetActiveUniformName'),
+    );
 
     return $function(...$args);
 }
 
 function glGetUniformBlockIndex(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETUNIFORMBLOCKINDEXPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetUniformBlockIndex'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETUNIFORMBLOCKINDEXPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetUniformBlockIndex'),
+    );
 
     return $function(...$args);
 }
 
 function glGetActiveUniformBlockiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETACTIVEUNIFORMBLOCKIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetActiveUniformBlockiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETACTIVEUNIFORMBLOCKIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetActiveUniformBlockiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetActiveUniformBlockName(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETACTIVEUNIFORMBLOCKNAMEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetActiveUniformBlockName'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETACTIVEUNIFORMBLOCKNAMEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetActiveUniformBlockName'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformBlockBinding(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMBLOCKBINDINGPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformBlockBinding'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMBLOCKBINDINGPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformBlockBinding'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawElementsBaseVertex(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWELEMENTSBASEVERTEXPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsBaseVertex'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWELEMENTSBASEVERTEXPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsBaseVertex'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawRangeElementsBaseVertex(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWRANGEELEMENTSBASEVERTEXPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawRangeElementsBaseVertex'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWRANGEELEMENTSBASEVERTEXPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawRangeElementsBaseVertex'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawElementsInstancedBaseVertex(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWELEMENTSINSTANCEDBASEVERTEXPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsInstancedBaseVertex'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWELEMENTSINSTANCEDBASEVERTEXPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsInstancedBaseVertex'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawElementsBaseVertex(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWELEMENTSBASEVERTEXPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElementsBaseVertex'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWELEMENTSBASEVERTEXPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElementsBaseVertex'),
+    );
 
     return $function(...$args);
 }
 
 function glProvokingVertex(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROVOKINGVERTEXPROC', GLFW_INSTANCE->glfwGetProcAddress('glProvokingVertex'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROVOKINGVERTEXPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProvokingVertex'),
+    );
 
     return $function(...$args);
 }
 
 function glFenceSync(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFENCESYNCPROC', GLFW_INSTANCE->glfwGetProcAddress('glFenceSync'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFENCESYNCPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFenceSync'),
+    );
 
     return $function(...$args);
 }
 
 function glIsSync(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISSYNCPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsSync'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISSYNCPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsSync'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteSync(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETESYNCPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteSync'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETESYNCPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteSync'),
+    );
 
     return $function(...$args);
 }
 
 function glClientWaitSync(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLIENTWAITSYNCPROC', GLFW_INSTANCE->glfwGetProcAddress('glClientWaitSync'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLIENTWAITSYNCPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClientWaitSync'),
+    );
 
     return $function(...$args);
 }
 
 function glWaitSync(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLWAITSYNCPROC', GLFW_INSTANCE->glfwGetProcAddress('glWaitSync'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLWAITSYNCPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glWaitSync'),
+    );
 
     return $function(...$args);
 }
 
 function glGetInteger64v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETINTEGER64VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetInteger64v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETINTEGER64VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetInteger64v'),
+    );
 
     return $function(...$args);
 }
 
 function glGetSynciv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSYNCIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetSynciv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSYNCIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetSynciv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetInteger64i_v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETINTEGER64I_VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetInteger64i_v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETINTEGER64I_VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetInteger64i_v'),
+    );
 
     return $function(...$args);
 }
 
 function glGetBufferParameteri64v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETBUFFERPARAMETERI64VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetBufferParameteri64v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETBUFFERPARAMETERI64VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetBufferParameteri64v'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferTexture(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERTEXTUREPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTexture'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERTEXTUREPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTexture'),
+    );
 
     return $function(...$args);
 }
 
 function glTexImage2DMultisample(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXIMAGE2DMULTISAMPLEPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexImage2DMultisample'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXIMAGE2DMULTISAMPLEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexImage2DMultisample'),
+    );
 
     return $function(...$args);
 }
 
 function glTexImage3DMultisample(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXIMAGE3DMULTISAMPLEPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexImage3DMultisample'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXIMAGE3DMULTISAMPLEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexImage3DMultisample'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultisamplefv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTISAMPLEFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultisamplefv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTISAMPLEFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultisamplefv'),
+    );
 
     return $function(...$args);
 }
 
 function glSampleMaski(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSAMPLEMASKIPROC', GLFW_INSTANCE->glfwGetProcAddress('glSampleMaski'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSAMPLEMASKIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSampleMaski'),
+    );
 
     return $function(...$args);
 }
 
 function glBindFragDataLocationIndexed(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDFRAGDATALOCATIONINDEXEDPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindFragDataLocationIndexed'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDFRAGDATALOCATIONINDEXEDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindFragDataLocationIndexed'),
+    );
 
     return $function(...$args);
 }
 
 function glGetFragDataIndex(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETFRAGDATAINDEXPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetFragDataIndex'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETFRAGDATAINDEXPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetFragDataIndex'),
+    );
 
     return $function(...$args);
 }
 
 function glGenSamplers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENSAMPLERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenSamplers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENSAMPLERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenSamplers'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteSamplers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETESAMPLERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteSamplers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETESAMPLERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteSamplers'),
+    );
 
     return $function(...$args);
 }
 
 function glIsSampler(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISSAMPLERPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsSampler'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISSAMPLERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsSampler'),
+    );
 
     return $function(...$args);
 }
 
 function glBindSampler(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDSAMPLERPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindSampler'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDSAMPLERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindSampler'),
+    );
 
     return $function(...$args);
 }
 
 function glSamplerParameteri(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSAMPLERPARAMETERIPROC', GLFW_INSTANCE->glfwGetProcAddress('glSamplerParameteri'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSAMPLERPARAMETERIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSamplerParameteri'),
+    );
 
     return $function(...$args);
 }
 
 function glSamplerParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSAMPLERPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glSamplerParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSAMPLERPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSamplerParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glSamplerParameterf(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSAMPLERPARAMETERFPROC', GLFW_INSTANCE->glfwGetProcAddress('glSamplerParameterf'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSAMPLERPARAMETERFPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSamplerParameterf'),
+    );
 
     return $function(...$args);
 }
 
 function glSamplerParameterfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSAMPLERPARAMETERFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glSamplerParameterfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSAMPLERPARAMETERFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSamplerParameterfv'),
+    );
 
     return $function(...$args);
 }
 
 function glSamplerParameterIiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSAMPLERPARAMETERIIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glSamplerParameterIiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSAMPLERPARAMETERIIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSamplerParameterIiv'),
+    );
 
     return $function(...$args);
 }
 
 function glSamplerParameterIuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSAMPLERPARAMETERIUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glSamplerParameterIuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSAMPLERPARAMETERIUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSamplerParameterIuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetSamplerParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSAMPLERPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetSamplerParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSAMPLERPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetSamplerParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetSamplerParameterIiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSAMPLERPARAMETERIIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetSamplerParameterIiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSAMPLERPARAMETERIIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetSamplerParameterIiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetSamplerParameterfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSAMPLERPARAMETERFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetSamplerParameterfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSAMPLERPARAMETERFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetSamplerParameterfv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetSamplerParameterIuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSAMPLERPARAMETERIUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetSamplerParameterIuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSAMPLERPARAMETERIUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetSamplerParameterIuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glQueryCounter(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLQUERYCOUNTERPROC', GLFW_INSTANCE->glfwGetProcAddress('glQueryCounter'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLQUERYCOUNTERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glQueryCounter'),
+    );
 
     return $function(...$args);
 }
 
 function glGetQueryObjecti64v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETQUERYOBJECTI64VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetQueryObjecti64v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETQUERYOBJECTI64VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetQueryObjecti64v'),
+    );
 
     return $function(...$args);
 }
 
 function glGetQueryObjectui64v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETQUERYOBJECTUI64VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetQueryObjectui64v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETQUERYOBJECTUI64VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetQueryObjectui64v'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribDivisor(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBDIVISORPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribDivisor'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBDIVISORPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribDivisor'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribP1ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBP1UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP1ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBP1UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP1ui'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribP1uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBP1UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP1uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBP1UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP1uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribP2ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBP2UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP2ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBP2UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP2ui'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribP2uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBP2UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP2uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBP2UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP2uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribP3ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBP3UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP3ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBP3UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP3ui'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribP3uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBP3UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP3uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBP3UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP3uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribP4ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBP4UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP4ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBP4UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP4ui'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribP4uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBP4UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP4uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBP4UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribP4uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glMinSampleShading(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMINSAMPLESHADINGPROC', GLFW_INSTANCE->glfwGetProcAddress('glMinSampleShading'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMINSAMPLESHADINGPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMinSampleShading'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendEquationi(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDEQUATIONIPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendEquationi'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDEQUATIONIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendEquationi'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendEquationSeparatei(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDEQUATIONSEPARATEIPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendEquationSeparatei'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDEQUATIONSEPARATEIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendEquationSeparatei'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendFunci(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDFUNCIPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendFunci'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDFUNCIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendFunci'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendFuncSeparatei(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDFUNCSEPARATEIPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendFuncSeparatei'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDFUNCSEPARATEIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendFuncSeparatei'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawArraysIndirect(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWARRAYSINDIRECTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawArraysIndirect'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWARRAYSINDIRECTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawArraysIndirect'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawElementsIndirect(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWELEMENTSINDIRECTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsIndirect'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWELEMENTSINDIRECTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsIndirect'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1d'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2d'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3d'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4DPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4d'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1dv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2dv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3dv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4dv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix2dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX2DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix2dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX2DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix2dv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix3dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX3DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix3dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX3DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix3dv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix4dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX4DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix4dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX4DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix4dv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix2x3dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX2X3DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix2x3dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX2X3DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix2x3dv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix2x4dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX2X4DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix2x4dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX2X4DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix2x4dv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix3x2dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX3X2DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix3x2dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX3X2DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix3x2dv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix3x4dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX3X4DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix3x4dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX3X4DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix3x4dv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix4x2dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX4X2DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix4x2dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX4X2DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix4x2dv'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformMatrix4x3dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMMATRIX4X3DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix4x3dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMMATRIX4X3DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformMatrix4x3dv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetUniformdv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETUNIFORMDVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetUniformdv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETUNIFORMDVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetUniformdv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetSubroutineUniformLocation(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSUBROUTINEUNIFORMLOCATIONPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetSubroutineUniformLocation'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSUBROUTINEUNIFORMLOCATIONPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetSubroutineUniformLocation'),
+    );
 
     return $function(...$args);
 }
 
 function glGetSubroutineIndex(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSUBROUTINEINDEXPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetSubroutineIndex'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSUBROUTINEINDEXPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetSubroutineIndex'),
+    );
 
     return $function(...$args);
 }
 
 function glGetActiveSubroutineUniformiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETACTIVESUBROUTINEUNIFORMIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetActiveSubroutineUniformiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETACTIVESUBROUTINEUNIFORMIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetActiveSubroutineUniformiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetActiveSubroutineUniformName(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETACTIVESUBROUTINEUNIFORMNAMEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetActiveSubroutineUniformName'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETACTIVESUBROUTINEUNIFORMNAMEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetActiveSubroutineUniformName'),
+    );
 
     return $function(...$args);
 }
 
 function glGetActiveSubroutineName(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETACTIVESUBROUTINENAMEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetActiveSubroutineName'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETACTIVESUBROUTINENAMEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetActiveSubroutineName'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformSubroutinesuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMSUBROUTINESUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformSubroutinesuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMSUBROUTINESUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformSubroutinesuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetUniformSubroutineuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETUNIFORMSUBROUTINEUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetUniformSubroutineuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETUNIFORMSUBROUTINEUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetUniformSubroutineuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramStageiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMSTAGEIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramStageiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMSTAGEIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramStageiv'),
+    );
 
     return $function(...$args);
 }
 
 function glPatchParameteri(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATCHPARAMETERIPROC', GLFW_INSTANCE->glfwGetProcAddress('glPatchParameteri'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATCHPARAMETERIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPatchParameteri'),
+    );
 
     return $function(...$args);
 }
 
 function glPatchParameterfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATCHPARAMETERFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPatchParameterfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATCHPARAMETERFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPatchParameterfv'),
+    );
 
     return $function(...$args);
 }
 
 function glBindTransformFeedback(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDTRANSFORMFEEDBACKPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindTransformFeedback'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDTRANSFORMFEEDBACKPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindTransformFeedback'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteTransformFeedbacks(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETETRANSFORMFEEDBACKSPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteTransformFeedbacks'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETETRANSFORMFEEDBACKSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteTransformFeedbacks'),
+    );
 
     return $function(...$args);
 }
 
 function glGenTransformFeedbacks(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENTRANSFORMFEEDBACKSPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenTransformFeedbacks'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENTRANSFORMFEEDBACKSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenTransformFeedbacks'),
+    );
 
     return $function(...$args);
 }
 
 function glIsTransformFeedback(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISTRANSFORMFEEDBACKPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsTransformFeedback'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISTRANSFORMFEEDBACKPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsTransformFeedback'),
+    );
 
     return $function(...$args);
 }
 
 function glPauseTransformFeedback(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPAUSETRANSFORMFEEDBACKPROC', GLFW_INSTANCE->glfwGetProcAddress('glPauseTransformFeedback'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPAUSETRANSFORMFEEDBACKPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPauseTransformFeedback'),
+    );
 
     return $function(...$args);
 }
 
 function glResumeTransformFeedback(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLRESUMETRANSFORMFEEDBACKPROC', GLFW_INSTANCE->glfwGetProcAddress('glResumeTransformFeedback'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLRESUMETRANSFORMFEEDBACKPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glResumeTransformFeedback'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawTransformFeedback(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWTRANSFORMFEEDBACKPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawTransformFeedback'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWTRANSFORMFEEDBACKPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawTransformFeedback'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawTransformFeedbackStream(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWTRANSFORMFEEDBACKSTREAMPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawTransformFeedbackStream'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWTRANSFORMFEEDBACKSTREAMPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawTransformFeedbackStream'),
+    );
 
     return $function(...$args);
 }
 
 function glBeginQueryIndexed(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBEGINQUERYINDEXEDPROC', GLFW_INSTANCE->glfwGetProcAddress('glBeginQueryIndexed'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBEGINQUERYINDEXEDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBeginQueryIndexed'),
+    );
 
     return $function(...$args);
 }
 
 function glEndQueryIndexed(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENDQUERYINDEXEDPROC', GLFW_INSTANCE->glfwGetProcAddress('glEndQueryIndexed'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENDQUERYINDEXEDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEndQueryIndexed'),
+    );
 
     return $function(...$args);
 }
 
 function glGetQueryIndexediv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETQUERYINDEXEDIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetQueryIndexediv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETQUERYINDEXEDIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetQueryIndexediv'),
+    );
 
     return $function(...$args);
 }
 
 function glReleaseShaderCompiler(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLRELEASESHADERCOMPILERPROC', GLFW_INSTANCE->glfwGetProcAddress('glReleaseShaderCompiler'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLRELEASESHADERCOMPILERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glReleaseShaderCompiler'),
+    );
 
     return $function(...$args);
 }
 
 function glShaderBinary(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSHADERBINARYPROC', GLFW_INSTANCE->glfwGetProcAddress('glShaderBinary'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSHADERBINARYPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glShaderBinary'),
+    );
 
     return $function(...$args);
 }
 
 function glGetShaderPrecisionFormat(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSHADERPRECISIONFORMATPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetShaderPrecisionFormat'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSHADERPRECISIONFORMATPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetShaderPrecisionFormat'),
+    );
 
     return $function(...$args);
 }
 
 function glDepthRangef(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEPTHRANGEFPROC', GLFW_INSTANCE->glfwGetProcAddress('glDepthRangef'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEPTHRANGEFPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDepthRangef'),
+    );
 
     return $function(...$args);
 }
 
 function glClearDepthf(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARDEPTHFPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearDepthf'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARDEPTHFPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearDepthf'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramBinary(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMBINARYPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramBinary'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMBINARYPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramBinary'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramBinary(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMBINARYPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramBinary'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMBINARYPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramBinary'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramParameteri(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMPARAMETERIPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramParameteri'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMPARAMETERIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramParameteri'),
+    );
 
     return $function(...$args);
 }
 
 function glUseProgramStages(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUSEPROGRAMSTAGESPROC', GLFW_INSTANCE->glfwGetProcAddress('glUseProgramStages'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUSEPROGRAMSTAGESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUseProgramStages'),
+    );
 
     return $function(...$args);
 }
 
 function glActiveShaderProgram(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLACTIVESHADERPROGRAMPROC', GLFW_INSTANCE->glfwGetProcAddress('glActiveShaderProgram'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLACTIVESHADERPROGRAMPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glActiveShaderProgram'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateShaderProgramv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATESHADERPROGRAMVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateShaderProgramv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATESHADERPROGRAMVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateShaderProgramv'),
+    );
 
     return $function(...$args);
 }
 
 function glBindProgramPipeline(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDPROGRAMPIPELINEPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindProgramPipeline'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDPROGRAMPIPELINEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindProgramPipeline'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteProgramPipelines(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETEPROGRAMPIPELINESPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteProgramPipelines'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETEPROGRAMPIPELINESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteProgramPipelines'),
+    );
 
     return $function(...$args);
 }
 
 function glGenProgramPipelines(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENPROGRAMPIPELINESPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenProgramPipelines'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENPROGRAMPIPELINESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenProgramPipelines'),
+    );
 
     return $function(...$args);
 }
 
 function glIsProgramPipeline(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISPROGRAMPIPELINEPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsProgramPipeline'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISPROGRAMPIPELINEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsProgramPipeline'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramPipelineiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMPIPELINEIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramPipelineiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMPIPELINEIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramPipelineiv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1i(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1IPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1i'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1IPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1i'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1iv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1f(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1FPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1f'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1FPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1f'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1d'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1dv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1ui'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2i(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2IPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2i'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2IPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2i'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2iv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2f(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2FPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2f'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2FPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2f'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2d'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2dv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2ui'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3i(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3IPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3i'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3IPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3i'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3iv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3f(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3FPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3f'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3FPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3f'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3d'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3dv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3ui'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4i(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4IPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4i'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4IPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4i'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4iv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4f(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4FPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4f'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4FPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4f'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4DPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4d'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4dv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4ui(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4UIPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4ui'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4UIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4ui'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4uiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4UIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4uiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4UIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4uiv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix2fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX2FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX2FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix3fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX3FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX3FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix4fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX4FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX4FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix2dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX2DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX2DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2dv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix3dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX3DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX3DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3dv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix4dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX4DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX4DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4dv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix2x3fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX2X3FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x3fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX2X3FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x3fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix3x2fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX3X2FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x2fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX3X2FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x2fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix2x4fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX2X4FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x4fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX2X4FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x4fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix4x2fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX4X2FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x2fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX4X2FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x2fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix3x4fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX3X4FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x4fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX3X4FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x4fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix4x3fv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX4X3FVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x3fv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX4X3FVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x3fv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix2x3dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX2X3DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x3dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX2X3DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x3dv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix3x2dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX3X2DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x2dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX3X2DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x2dv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix2x4dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX2X4DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x4dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX2X4DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x4dv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix4x2dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX4X2DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x2dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX4X2DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x2dv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix3x4dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX3X4DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x4dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX3X4DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x4dv'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix4x3dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX4X3DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x3dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX4X3DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x3dv'),
+    );
 
     return $function(...$args);
 }
 
 function glValidateProgramPipeline(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVALIDATEPROGRAMPIPELINEPROC', GLFW_INSTANCE->glfwGetProcAddress('glValidateProgramPipeline'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVALIDATEPROGRAMPIPELINEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glValidateProgramPipeline'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramPipelineInfoLog(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMPIPELINEINFOLOGPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramPipelineInfoLog'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMPIPELINEINFOLOGPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramPipelineInfoLog'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL1d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1d'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL2d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL2d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL2d'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL3d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL3d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL3d'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL4d(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL4DPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL4d'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL4DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL4d'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL1dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL1DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL1DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1dv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL2dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL2DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL2dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL2DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL2dv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL3dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL3DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL3dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL3DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL3dv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL4dv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL4DVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL4dv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL4DVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL4dv'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribLPointer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBLPOINTERPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribLPointer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBLPOINTERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribLPointer'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexAttribLdv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXATTRIBLDVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribLdv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXATTRIBLDVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribLdv'),
+    );
 
     return $function(...$args);
 }
 
 function glViewportArrayv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVIEWPORTARRAYVPROC', GLFW_INSTANCE->glfwGetProcAddress('glViewportArrayv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVIEWPORTARRAYVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glViewportArrayv'),
+    );
 
     return $function(...$args);
 }
 
 function glViewportIndexedf(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVIEWPORTINDEXEDFPROC', GLFW_INSTANCE->glfwGetProcAddress('glViewportIndexedf'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVIEWPORTINDEXEDFPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glViewportIndexedf'),
+    );
 
     return $function(...$args);
 }
 
 function glViewportIndexedfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVIEWPORTINDEXEDFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glViewportIndexedfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVIEWPORTINDEXEDFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glViewportIndexedfv'),
+    );
 
     return $function(...$args);
 }
 
 function glScissorArrayv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSCISSORARRAYVPROC', GLFW_INSTANCE->glfwGetProcAddress('glScissorArrayv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSCISSORARRAYVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glScissorArrayv'),
+    );
 
     return $function(...$args);
 }
 
 function glScissorIndexed(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSCISSORINDEXEDPROC', GLFW_INSTANCE->glfwGetProcAddress('glScissorIndexed'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSCISSORINDEXEDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glScissorIndexed'),
+    );
 
     return $function(...$args);
 }
 
 function glScissorIndexedv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSCISSORINDEXEDVPROC', GLFW_INSTANCE->glfwGetProcAddress('glScissorIndexedv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSCISSORINDEXEDVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glScissorIndexedv'),
+    );
 
     return $function(...$args);
 }
 
 function glDepthRangeArrayv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEPTHRANGEARRAYVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDepthRangeArrayv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEPTHRANGEARRAYVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDepthRangeArrayv'),
+    );
 
     return $function(...$args);
 }
 
 function glDepthRangeIndexed(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEPTHRANGEINDEXEDPROC', GLFW_INSTANCE->glfwGetProcAddress('glDepthRangeIndexed'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEPTHRANGEINDEXEDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDepthRangeIndexed'),
+    );
 
     return $function(...$args);
 }
 
 function glGetFloati_v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETFLOATI_VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetFloati_v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETFLOATI_VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetFloati_v'),
+    );
 
     return $function(...$args);
 }
 
 function glGetDoublei_v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETDOUBLEI_VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetDoublei_v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETDOUBLEI_VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetDoublei_v'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawArraysInstancedBaseInstance(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWARRAYSINSTANCEDBASEINSTANCEPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawArraysInstancedBaseInstance'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWARRAYSINSTANCEDBASEINSTANCEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawArraysInstancedBaseInstance'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawElementsInstancedBaseInstance(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWELEMENTSINSTANCEDBASEINSTANCEPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsInstancedBaseInstance'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWELEMENTSINSTANCEDBASEINSTANCEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsInstancedBaseInstance'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawElementsInstancedBaseVertexBaseInstance(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWELEMENTSINSTANCEDBASEVERTEXBASEINSTANCEPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsInstancedBaseVertexBaseInstance'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWELEMENTSINSTANCEDBASEVERTEXBASEINSTANCEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsInstancedBaseVertexBaseInstance'),
+    );
 
     return $function(...$args);
 }
 
 function glGetInternalformativ(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETINTERNALFORMATIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetInternalformativ'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETINTERNALFORMATIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetInternalformativ'),
+    );
 
     return $function(...$args);
 }
 
 function glGetActiveAtomicCounterBufferiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETACTIVEATOMICCOUNTERBUFFERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetActiveAtomicCounterBufferiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETACTIVEATOMICCOUNTERBUFFERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetActiveAtomicCounterBufferiv'),
+    );
 
     return $function(...$args);
 }
 
 function glBindImageTexture(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDIMAGETEXTUREPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindImageTexture'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDIMAGETEXTUREPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindImageTexture'),
+    );
 
     return $function(...$args);
 }
 
 function glMemoryBarrier(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMEMORYBARRIERPROC', GLFW_INSTANCE->glfwGetProcAddress('glMemoryBarrier'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMEMORYBARRIERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMemoryBarrier'),
+    );
 
     return $function(...$args);
 }
 
 function glTexStorage1D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXSTORAGE1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexStorage1D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXSTORAGE1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexStorage1D'),
+    );
 
     return $function(...$args);
 }
 
 function glTexStorage2D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXSTORAGE2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexStorage2D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXSTORAGE2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexStorage2D'),
+    );
 
     return $function(...$args);
 }
 
 function glTexStorage3D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXSTORAGE3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexStorage3D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXSTORAGE3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexStorage3D'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawTransformFeedbackInstanced(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWTRANSFORMFEEDBACKINSTANCEDPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawTransformFeedbackInstanced'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWTRANSFORMFEEDBACKINSTANCEDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawTransformFeedbackInstanced'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawTransformFeedbackStreamInstanced(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWTRANSFORMFEEDBACKSTREAMINSTANCEDPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawTransformFeedbackStreamInstanced'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWTRANSFORMFEEDBACKSTREAMINSTANCEDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawTransformFeedbackStreamInstanced'),
+    );
 
     return $function(...$args);
 }
 
 function glClearBufferData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARBUFFERDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearBufferData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARBUFFERDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearBufferData'),
+    );
 
     return $function(...$args);
 }
 
 function glClearBufferSubData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARBUFFERSUBDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearBufferSubData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARBUFFERSUBDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearBufferSubData'),
+    );
 
     return $function(...$args);
 }
 
 function glDispatchCompute(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDISPATCHCOMPUTEPROC', GLFW_INSTANCE->glfwGetProcAddress('glDispatchCompute'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDISPATCHCOMPUTEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDispatchCompute'),
+    );
 
     return $function(...$args);
 }
 
 function glDispatchComputeIndirect(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDISPATCHCOMPUTEINDIRECTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDispatchComputeIndirect'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDISPATCHCOMPUTEINDIRECTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDispatchComputeIndirect'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyImageSubData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYIMAGESUBDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyImageSubData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYIMAGESUBDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyImageSubData'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferParameteri(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERPARAMETERIPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferParameteri'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERPARAMETERIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferParameteri'),
+    );
 
     return $function(...$args);
 }
 
 function glGetFramebufferParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETFRAMEBUFFERPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetFramebufferParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETFRAMEBUFFERPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetFramebufferParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetInternalformati64v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETINTERNALFORMATI64VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetInternalformati64v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETINTERNALFORMATI64VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetInternalformati64v'),
+    );
 
     return $function(...$args);
 }
 
 function glInvalidateTexSubImage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLINVALIDATETEXSUBIMAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glInvalidateTexSubImage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLINVALIDATETEXSUBIMAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glInvalidateTexSubImage'),
+    );
 
     return $function(...$args);
 }
 
 function glInvalidateTexImage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLINVALIDATETEXIMAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glInvalidateTexImage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLINVALIDATETEXIMAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glInvalidateTexImage'),
+    );
 
     return $function(...$args);
 }
 
 function glInvalidateBufferSubData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLINVALIDATEBUFFERSUBDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glInvalidateBufferSubData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLINVALIDATEBUFFERSUBDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glInvalidateBufferSubData'),
+    );
 
     return $function(...$args);
 }
 
 function glInvalidateBufferData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLINVALIDATEBUFFERDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glInvalidateBufferData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLINVALIDATEBUFFERDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glInvalidateBufferData'),
+    );
 
     return $function(...$args);
 }
 
 function glInvalidateFramebuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLINVALIDATEFRAMEBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glInvalidateFramebuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLINVALIDATEFRAMEBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glInvalidateFramebuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glInvalidateSubFramebuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLINVALIDATESUBFRAMEBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glInvalidateSubFramebuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLINVALIDATESUBFRAMEBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glInvalidateSubFramebuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawArraysIndirect(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWARRAYSINDIRECTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawArraysIndirect'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWARRAYSINDIRECTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawArraysIndirect'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawElementsIndirect(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWELEMENTSINDIRECTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElementsIndirect'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWELEMENTSINDIRECTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElementsIndirect'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramInterfaceiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMINTERFACEIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramInterfaceiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMINTERFACEIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramInterfaceiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramResourceIndex(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMRESOURCEINDEXPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramResourceIndex'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMRESOURCEINDEXPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramResourceIndex'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramResourceName(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMRESOURCENAMEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramResourceName'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMRESOURCENAMEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramResourceName'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramResourceiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMRESOURCEIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramResourceiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMRESOURCEIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramResourceiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramResourceLocation(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMRESOURCELOCATIONPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramResourceLocation'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMRESOURCELOCATIONPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramResourceLocation'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramResourceLocationIndex(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMRESOURCELOCATIONINDEXPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramResourceLocationIndex'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMRESOURCELOCATIONINDEXPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramResourceLocationIndex'),
+    );
 
     return $function(...$args);
 }
 
 function glShaderStorageBlockBinding(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSHADERSTORAGEBLOCKBINDINGPROC', GLFW_INSTANCE->glfwGetProcAddress('glShaderStorageBlockBinding'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSHADERSTORAGEBLOCKBINDINGPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glShaderStorageBlockBinding'),
+    );
 
     return $function(...$args);
 }
 
 function glTexBufferRange(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXBUFFERRANGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexBufferRange'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXBUFFERRANGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexBufferRange'),
+    );
 
     return $function(...$args);
 }
 
 function glTexStorage2DMultisample(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXSTORAGE2DMULTISAMPLEPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexStorage2DMultisample'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXSTORAGE2DMULTISAMPLEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexStorage2DMultisample'),
+    );
 
     return $function(...$args);
 }
 
 function glTexStorage3DMultisample(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXSTORAGE3DMULTISAMPLEPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexStorage3DMultisample'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXSTORAGE3DMULTISAMPLEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexStorage3DMultisample'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureView(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREVIEWPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureView'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREVIEWPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureView'),
+    );
 
     return $function(...$args);
 }
 
 function glBindVertexBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDVERTEXBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindVertexBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDVERTEXBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindVertexBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribFormat(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBFORMATPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribFormat'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBFORMATPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribFormat'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribIFormat(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBIFORMATPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribIFormat'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBIFORMATPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribIFormat'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribLFormat(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBLFORMATPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribLFormat'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBLFORMATPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribLFormat'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribBinding(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBBINDINGPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribBinding'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBBINDINGPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribBinding'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexBindingDivisor(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXBINDINGDIVISORPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexBindingDivisor'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXBINDINGDIVISORPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexBindingDivisor'),
+    );
 
     return $function(...$args);
 }
 
 function glDebugMessageControl(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEBUGMESSAGECONTROLPROC', GLFW_INSTANCE->glfwGetProcAddress('glDebugMessageControl'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEBUGMESSAGECONTROLPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDebugMessageControl'),
+    );
 
     return $function(...$args);
 }
 
 function glDebugMessageInsert(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEBUGMESSAGEINSERTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDebugMessageInsert'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEBUGMESSAGEINSERTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDebugMessageInsert'),
+    );
 
     return $function(...$args);
 }
 
 function glDebugMessageCallback(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEBUGMESSAGECALLBACKPROC', GLFW_INSTANCE->glfwGetProcAddress('glDebugMessageCallback'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEBUGMESSAGECALLBACKPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDebugMessageCallback'),
+    );
 
     return $function(...$args);
 }
 
 function glGetDebugMessageLog(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETDEBUGMESSAGELOGPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetDebugMessageLog'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETDEBUGMESSAGELOGPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetDebugMessageLog'),
+    );
 
     return $function(...$args);
 }
 
 function glPushDebugGroup(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPUSHDEBUGGROUPPROC', GLFW_INSTANCE->glfwGetProcAddress('glPushDebugGroup'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPUSHDEBUGGROUPPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPushDebugGroup'),
+    );
 
     return $function(...$args);
 }
 
 function glPopDebugGroup(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPOPDEBUGGROUPPROC', GLFW_INSTANCE->glfwGetProcAddress('glPopDebugGroup'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPOPDEBUGGROUPPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPopDebugGroup'),
+    );
 
     return $function(...$args);
 }
 
 function glObjectLabel(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLOBJECTLABELPROC', GLFW_INSTANCE->glfwGetProcAddress('glObjectLabel'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLOBJECTLABELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glObjectLabel'),
+    );
 
     return $function(...$args);
 }
 
 function glGetObjectLabel(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETOBJECTLABELPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetObjectLabel'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETOBJECTLABELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetObjectLabel'),
+    );
 
     return $function(...$args);
 }
 
 function glObjectPtrLabel(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLOBJECTPTRLABELPROC', GLFW_INSTANCE->glfwGetProcAddress('glObjectPtrLabel'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLOBJECTPTRLABELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glObjectPtrLabel'),
+    );
 
     return $function(...$args);
 }
 
 function glGetObjectPtrLabel(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETOBJECTPTRLABELPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetObjectPtrLabel'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETOBJECTPTRLABELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetObjectPtrLabel'),
+    );
 
     return $function(...$args);
 }
 
 function glBufferStorage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBUFFERSTORAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glBufferStorage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBUFFERSTORAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBufferStorage'),
+    );
 
     return $function(...$args);
 }
 
 function glClearTexImage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARTEXIMAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearTexImage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARTEXIMAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearTexImage'),
+    );
 
     return $function(...$args);
 }
 
 function glClearTexSubImage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARTEXSUBIMAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearTexSubImage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARTEXSUBIMAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearTexSubImage'),
+    );
 
     return $function(...$args);
 }
 
 function glBindBuffersBase(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDBUFFERSBASEPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindBuffersBase'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDBUFFERSBASEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindBuffersBase'),
+    );
 
     return $function(...$args);
 }
 
 function glBindBuffersRange(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDBUFFERSRANGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindBuffersRange'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDBUFFERSRANGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindBuffersRange'),
+    );
 
     return $function(...$args);
 }
 
 function glBindTextures(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDTEXTURESPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindTextures'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDTEXTURESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindTextures'),
+    );
 
     return $function(...$args);
 }
 
 function glBindSamplers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDSAMPLERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindSamplers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDSAMPLERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindSamplers'),
+    );
 
     return $function(...$args);
 }
 
 function glBindImageTextures(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDIMAGETEXTURESPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindImageTextures'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDIMAGETEXTURESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindImageTextures'),
+    );
 
     return $function(...$args);
 }
 
 function glBindVertexBuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDVERTEXBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindVertexBuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDVERTEXBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindVertexBuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glClipControl(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLIPCONTROLPROC', GLFW_INSTANCE->glfwGetProcAddress('glClipControl'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLIPCONTROLPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClipControl'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateTransformFeedbacks(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATETRANSFORMFEEDBACKSPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateTransformFeedbacks'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATETRANSFORMFEEDBACKSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateTransformFeedbacks'),
+    );
 
     return $function(...$args);
 }
 
 function glTransformFeedbackBufferBase(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTRANSFORMFEEDBACKBUFFERBASEPROC', GLFW_INSTANCE->glfwGetProcAddress('glTransformFeedbackBufferBase'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTRANSFORMFEEDBACKBUFFERBASEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTransformFeedbackBufferBase'),
+    );
 
     return $function(...$args);
 }
 
 function glTransformFeedbackBufferRange(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTRANSFORMFEEDBACKBUFFERRANGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glTransformFeedbackBufferRange'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTRANSFORMFEEDBACKBUFFERRANGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTransformFeedbackBufferRange'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTransformFeedbackiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTRANSFORMFEEDBACKIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTransformFeedbackiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTRANSFORMFEEDBACKIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTransformFeedbackiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTransformFeedbacki_v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTRANSFORMFEEDBACKI_VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTransformFeedbacki_v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTRANSFORMFEEDBACKI_VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTransformFeedbacki_v'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTransformFeedbacki64_v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTRANSFORMFEEDBACKI64_VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTransformFeedbacki64_v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTRANSFORMFEEDBACKI64_VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTransformFeedbacki64_v'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateBuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATEBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateBuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATEBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateBuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedBufferStorage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDBUFFERSTORAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferStorage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDBUFFERSTORAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferStorage'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedBufferData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDBUFFERDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDBUFFERDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferData'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedBufferSubData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDBUFFERSUBDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferSubData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDBUFFERSUBDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferSubData'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyNamedBufferSubData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYNAMEDBUFFERSUBDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyNamedBufferSubData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYNAMEDBUFFERSUBDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyNamedBufferSubData'),
+    );
 
     return $function(...$args);
 }
 
 function glClearNamedBufferData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARNAMEDBUFFERDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearNamedBufferData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARNAMEDBUFFERDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearNamedBufferData'),
+    );
 
     return $function(...$args);
 }
 
 function glClearNamedBufferSubData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARNAMEDBUFFERSUBDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearNamedBufferSubData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARNAMEDBUFFERSUBDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearNamedBufferSubData'),
+    );
 
     return $function(...$args);
 }
 
 function glMapNamedBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAPNAMEDBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glMapNamedBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAPNAMEDBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMapNamedBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glMapNamedBufferRange(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAPNAMEDBUFFERRANGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glMapNamedBufferRange'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAPNAMEDBUFFERRANGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMapNamedBufferRange'),
+    );
 
     return $function(...$args);
 }
 
 function glUnmapNamedBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNMAPNAMEDBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glUnmapNamedBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNMAPNAMEDBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUnmapNamedBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glFlushMappedNamedBufferRange(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFLUSHMAPPEDNAMEDBUFFERRANGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glFlushMappedNamedBufferRange'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFLUSHMAPPEDNAMEDBUFFERRANGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFlushMappedNamedBufferRange'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedBufferParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDBUFFERPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDBUFFERPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedBufferParameteri64v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDBUFFERPARAMETERI64VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferParameteri64v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDBUFFERPARAMETERI64VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferParameteri64v'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedBufferPointerv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDBUFFERPOINTERVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferPointerv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDBUFFERPOINTERVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferPointerv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedBufferSubData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDBUFFERSUBDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferSubData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDBUFFERSUBDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferSubData'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateFramebuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATEFRAMEBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateFramebuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATEFRAMEBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateFramebuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferRenderbuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERRENDERBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferRenderbuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERRENDERBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferRenderbuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferParameteri(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERPARAMETERIPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferParameteri'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERPARAMETERIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferParameteri'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferTexture(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERTEXTUREPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTexture'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERTEXTUREPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTexture'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferTextureLayer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERTEXTURELAYERPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTextureLayer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERTEXTURELAYERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTextureLayer'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferDrawBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERDRAWBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferDrawBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERDRAWBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferDrawBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferDrawBuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERDRAWBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferDrawBuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERDRAWBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferDrawBuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferReadBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERREADBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferReadBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERREADBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferReadBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glInvalidateNamedFramebufferData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLINVALIDATENAMEDFRAMEBUFFERDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glInvalidateNamedFramebufferData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLINVALIDATENAMEDFRAMEBUFFERDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glInvalidateNamedFramebufferData'),
+    );
 
     return $function(...$args);
 }
 
 function glInvalidateNamedFramebufferSubData(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLINVALIDATENAMEDFRAMEBUFFERSUBDATAPROC', GLFW_INSTANCE->glfwGetProcAddress('glInvalidateNamedFramebufferSubData'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLINVALIDATENAMEDFRAMEBUFFERSUBDATAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glInvalidateNamedFramebufferSubData'),
+    );
 
     return $function(...$args);
 }
 
 function glClearNamedFramebufferiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARNAMEDFRAMEBUFFERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearNamedFramebufferiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARNAMEDFRAMEBUFFERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearNamedFramebufferiv'),
+    );
 
     return $function(...$args);
 }
 
 function glClearNamedFramebufferuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARNAMEDFRAMEBUFFERUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearNamedFramebufferuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARNAMEDFRAMEBUFFERUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearNamedFramebufferuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glClearNamedFramebufferfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARNAMEDFRAMEBUFFERFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearNamedFramebufferfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARNAMEDFRAMEBUFFERFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearNamedFramebufferfv'),
+    );
 
     return $function(...$args);
 }
 
 function glClearNamedFramebufferfi(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARNAMEDFRAMEBUFFERFIPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearNamedFramebufferfi'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARNAMEDFRAMEBUFFERFIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearNamedFramebufferfi'),
+    );
 
     return $function(...$args);
 }
 
 function glBlitNamedFramebuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLITNAMEDFRAMEBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlitNamedFramebuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLITNAMEDFRAMEBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlitNamedFramebuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glCheckNamedFramebufferStatus(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCHECKNAMEDFRAMEBUFFERSTATUSPROC', GLFW_INSTANCE->glfwGetProcAddress('glCheckNamedFramebufferStatus'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCHECKNAMEDFRAMEBUFFERSTATUSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCheckNamedFramebufferStatus'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedFramebufferParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDFRAMEBUFFERPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedFramebufferParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDFRAMEBUFFERPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedFramebufferParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedFramebufferAttachmentParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDFRAMEBUFFERATTACHMENTPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedFramebufferAttachmentParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDFRAMEBUFFERATTACHMENTPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedFramebufferAttachmentParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateRenderbuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATERENDERBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateRenderbuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATERENDERBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateRenderbuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedRenderbufferStorage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDRENDERBUFFERSTORAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedRenderbufferStorage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDRENDERBUFFERSTORAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedRenderbufferStorage'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedRenderbufferStorageMultisample(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDRENDERBUFFERSTORAGEMULTISAMPLEPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedRenderbufferStorageMultisample'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDRENDERBUFFERSTORAGEMULTISAMPLEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedRenderbufferStorageMultisample'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedRenderbufferParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDRENDERBUFFERPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedRenderbufferParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDRENDERBUFFERPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedRenderbufferParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateTextures(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATETEXTURESPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateTextures'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATETEXTURESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateTextures'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureBufferRange(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREBUFFERRANGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureBufferRange'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREBUFFERRANGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureBufferRange'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureStorage1D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESTORAGE1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage1D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESTORAGE1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage1D'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureStorage2D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESTORAGE2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage2D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESTORAGE2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage2D'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureStorage3D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESTORAGE3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage3D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESTORAGE3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage3D'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureStorage2DMultisample(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESTORAGE2DMULTISAMPLEPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage2DMultisample'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESTORAGE2DMULTISAMPLEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage2DMultisample'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureStorage3DMultisample(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESTORAGE3DMULTISAMPLEPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage3DMultisample'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESTORAGE3DMULTISAMPLEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage3DMultisample'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureSubImage1D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESUBIMAGE1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureSubImage1D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESUBIMAGE1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureSubImage1D'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureSubImage2D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESUBIMAGE2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureSubImage2D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESUBIMAGE2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureSubImage2D'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureSubImage3D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESUBIMAGE3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureSubImage3D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESUBIMAGE3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureSubImage3D'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTextureSubImage1D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXTURESUBIMAGE1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureSubImage1D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXTURESUBIMAGE1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureSubImage1D'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTextureSubImage2D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXTURESUBIMAGE2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureSubImage2D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXTURESUBIMAGE2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureSubImage2D'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTextureSubImage3D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXTURESUBIMAGE3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureSubImage3D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXTURESUBIMAGE3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureSubImage3D'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTextureSubImage1D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXTURESUBIMAGE1DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureSubImage1D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXTURESUBIMAGE1DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureSubImage1D'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTextureSubImage2D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXTURESUBIMAGE2DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureSubImage2D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXTURESUBIMAGE2DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureSubImage2D'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTextureSubImage3D(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXTURESUBIMAGE3DPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureSubImage3D'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXTURESUBIMAGE3DPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureSubImage3D'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureParameterf(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPARAMETERFPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterf'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPARAMETERFPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterf'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureParameterfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPARAMETERFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPARAMETERFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterfv'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureParameteri(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPARAMETERIPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureParameteri'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPARAMETERIPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureParameteri'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureParameterIiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPARAMETERIIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterIiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPARAMETERIIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterIiv'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureParameterIuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPARAMETERIUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterIuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPARAMETERIUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterIuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glGenerateTextureMipmap(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENERATETEXTUREMIPMAPPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenerateTextureMipmap'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENERATETEXTUREMIPMAPPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenerateTextureMipmap'),
+    );
 
     return $function(...$args);
 }
 
 function glBindTextureUnit(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDTEXTUREUNITPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindTextureUnit'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDTEXTUREUNITPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindTextureUnit'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureImage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTUREIMAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureImage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTUREIMAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureImage'),
+    );
 
     return $function(...$args);
 }
 
 function glGetCompressedTextureImage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETCOMPRESSEDTEXTUREIMAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetCompressedTextureImage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETCOMPRESSEDTEXTUREIMAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetCompressedTextureImage'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureLevelParameterfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTURELEVELPARAMETERFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureLevelParameterfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTURELEVELPARAMETERFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureLevelParameterfv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureLevelParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTURELEVELPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureLevelParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTURELEVELPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureLevelParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureParameterfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTUREPARAMETERFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTUREPARAMETERFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterfv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureParameterIiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTUREPARAMETERIIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterIiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTUREPARAMETERIIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterIiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureParameterIuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTUREPARAMETERIUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterIuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTUREPARAMETERIUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterIuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureParameteriv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTUREPARAMETERIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameteriv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTUREPARAMETERIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameteriv'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateVertexArrays(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATEVERTEXARRAYSPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateVertexArrays'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATEVERTEXARRAYSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateVertexArrays'),
+    );
 
     return $function(...$args);
 }
 
 function glDisableVertexArrayAttrib(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDISABLEVERTEXARRAYATTRIBPROC', GLFW_INSTANCE->glfwGetProcAddress('glDisableVertexArrayAttrib'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDISABLEVERTEXARRAYATTRIBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDisableVertexArrayAttrib'),
+    );
 
     return $function(...$args);
 }
 
 function glEnableVertexArrayAttrib(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENABLEVERTEXARRAYATTRIBPROC', GLFW_INSTANCE->glfwGetProcAddress('glEnableVertexArrayAttrib'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENABLEVERTEXARRAYATTRIBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEnableVertexArrayAttrib'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayElementBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYELEMENTBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayElementBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYELEMENTBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayElementBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayVertexBuffer(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYVERTEXBUFFERPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexBuffer'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYVERTEXBUFFERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexBuffer'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayVertexBuffers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYVERTEXBUFFERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexBuffers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYVERTEXBUFFERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexBuffers'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayAttribBinding(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYATTRIBBINDINGPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayAttribBinding'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYATTRIBBINDINGPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayAttribBinding'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayAttribFormat(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYATTRIBFORMATPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayAttribFormat'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYATTRIBFORMATPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayAttribFormat'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayAttribIFormat(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYATTRIBIFORMATPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayAttribIFormat'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYATTRIBIFORMATPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayAttribIFormat'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayAttribLFormat(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYATTRIBLFORMATPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayAttribLFormat'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYATTRIBLFORMATPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayAttribLFormat'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayBindingDivisor(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYBINDINGDIVISORPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayBindingDivisor'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYBINDINGDIVISORPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayBindingDivisor'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexArrayiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXARRAYIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXARRAYIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexArrayIndexediv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXARRAYINDEXEDIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayIndexediv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXARRAYINDEXEDIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayIndexediv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexArrayIndexed64iv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXARRAYINDEXED64IVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayIndexed64iv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXARRAYINDEXED64IVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayIndexed64iv'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateSamplers(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATESAMPLERSPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateSamplers'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATESAMPLERSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateSamplers'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateProgramPipelines(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATEPROGRAMPIPELINESPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateProgramPipelines'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATEPROGRAMPIPELINESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateProgramPipelines'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateQueries(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATEQUERIESPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateQueries'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATEQUERIESPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateQueries'),
+    );
 
     return $function(...$args);
 }
 
 function glGetQueryBufferObjecti64v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETQUERYBUFFEROBJECTI64VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetQueryBufferObjecti64v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETQUERYBUFFEROBJECTI64VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetQueryBufferObjecti64v'),
+    );
 
     return $function(...$args);
 }
 
 function glGetQueryBufferObjectiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETQUERYBUFFEROBJECTIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetQueryBufferObjectiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETQUERYBUFFEROBJECTIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetQueryBufferObjectiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetQueryBufferObjectui64v(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETQUERYBUFFEROBJECTUI64VPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetQueryBufferObjectui64v'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETQUERYBUFFEROBJECTUI64VPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetQueryBufferObjectui64v'),
+    );
 
     return $function(...$args);
 }
 
 function glGetQueryBufferObjectuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETQUERYBUFFEROBJECTUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetQueryBufferObjectuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETQUERYBUFFEROBJECTUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetQueryBufferObjectuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glMemoryBarrierByRegion(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMEMORYBARRIERBYREGIONPROC', GLFW_INSTANCE->glfwGetProcAddress('glMemoryBarrierByRegion'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMEMORYBARRIERBYREGIONPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMemoryBarrierByRegion'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureSubImage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTURESUBIMAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureSubImage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTURESUBIMAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureSubImage'),
+    );
 
     return $function(...$args);
 }
 
 function glGetCompressedTextureSubImage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETCOMPRESSEDTEXTURESUBIMAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetCompressedTextureSubImage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETCOMPRESSEDTEXTURESUBIMAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetCompressedTextureSubImage'),
+    );
 
     return $function(...$args);
 }
 
 function glGetGraphicsResetStatus(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETGRAPHICSRESETSTATUSPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetGraphicsResetStatus'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETGRAPHICSRESETSTATUSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetGraphicsResetStatus'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnCompressedTexImage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNCOMPRESSEDTEXIMAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnCompressedTexImage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNCOMPRESSEDTEXIMAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnCompressedTexImage'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnTexImage(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNTEXIMAGEPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnTexImage'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNTEXIMAGEPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnTexImage'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnUniformdv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNUNIFORMDVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformdv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNUNIFORMDVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformdv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnUniformfv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNUNIFORMFVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformfv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNUNIFORMFVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformfv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnUniformiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNUNIFORMIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNUNIFORMIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformiv'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnUniformuiv(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNUNIFORMUIVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformuiv'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNUNIFORMUIVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformuiv'),
+    );
 
     return $function(...$args);
 }
 
 function glReadnPixels(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLREADNPIXELSPROC', GLFW_INSTANCE->glfwGetProcAddress('glReadnPixels'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLREADNPIXELSPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glReadnPixels'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureBarrier(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREBARRIERPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureBarrier'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREBARRIERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureBarrier'),
+    );
 
     return $function(...$args);
 }
 
 function glSpecializeShader(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSPECIALIZESHADERPROC', GLFW_INSTANCE->glfwGetProcAddress('glSpecializeShader'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSPECIALIZESHADERPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSpecializeShader'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawArraysIndirectCount(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWARRAYSINDIRECTCOUNTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawArraysIndirectCount'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWARRAYSINDIRECTCOUNTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawArraysIndirectCount'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawElementsIndirectCount(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWELEMENTSINDIRECTCOUNTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElementsIndirectCount'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWELEMENTSINDIRECTCOUNTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElementsIndirectCount'),
+    );
 
     return $function(...$args);
 }
 
 function glPolygonOffsetClamp(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPOLYGONOFFSETCLAMPPROC', GLFW_INSTANCE->glfwGetProcAddress('glPolygonOffsetClamp'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPOLYGONOFFSETCLAMPPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPolygonOffsetClamp'),
+    );
 
     return $function(...$args);
 }
 
 function glPrimitiveBoundingBoxARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPRIMITIVEBOUNDINGBOXARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glPrimitiveBoundingBoxARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPRIMITIVEBOUNDINGBOXARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPrimitiveBoundingBoxARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureHandleARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTUREHANDLEARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureHandleARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTUREHANDLEARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureHandleARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureSamplerHandleARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTURESAMPLERHANDLEARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureSamplerHandleARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTURESAMPLERHANDLEARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureSamplerHandleARB'),
+    );
 
     return $function(...$args);
 }
 
 function glMakeTextureHandleResidentARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAKETEXTUREHANDLERESIDENTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glMakeTextureHandleResidentARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAKETEXTUREHANDLERESIDENTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMakeTextureHandleResidentARB'),
+    );
 
     return $function(...$args);
 }
 
 function glMakeTextureHandleNonResidentARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAKETEXTUREHANDLENONRESIDENTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glMakeTextureHandleNonResidentARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAKETEXTUREHANDLENONRESIDENTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMakeTextureHandleNonResidentARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetImageHandleARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETIMAGEHANDLEARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetImageHandleARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETIMAGEHANDLEARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetImageHandleARB'),
+    );
 
     return $function(...$args);
 }
 
 function glMakeImageHandleResidentARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAKEIMAGEHANDLERESIDENTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glMakeImageHandleResidentARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAKEIMAGEHANDLERESIDENTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMakeImageHandleResidentARB'),
+    );
 
     return $function(...$args);
 }
 
 function glMakeImageHandleNonResidentARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAKEIMAGEHANDLENONRESIDENTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glMakeImageHandleNonResidentARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAKEIMAGEHANDLENONRESIDENTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMakeImageHandleNonResidentARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformHandleui64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMHANDLEUI64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformHandleui64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMHANDLEUI64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformHandleui64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformHandleui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMHANDLEUI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformHandleui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMHANDLEUI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformHandleui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformHandleui64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMHANDLEUI64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformHandleui64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMHANDLEUI64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformHandleui64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformHandleui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMHANDLEUI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformHandleui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMHANDLEUI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformHandleui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glIsTextureHandleResidentARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISTEXTUREHANDLERESIDENTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsTextureHandleResidentARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISTEXTUREHANDLERESIDENTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsTextureHandleResidentARB'),
+    );
 
     return $function(...$args);
 }
 
 function glIsImageHandleResidentARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISIMAGEHANDLERESIDENTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsImageHandleResidentARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISIMAGEHANDLERESIDENTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsImageHandleResidentARB'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL1ui64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL1UI64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1ui64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL1UI64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1ui64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL1ui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL1UI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1ui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL1UI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1ui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexAttribLui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXATTRIBLUI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribLui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXATTRIBLUI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribLui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateSyncFromCLeventARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATESYNCFROMCLEVENTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateSyncFromCLeventARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATESYNCFROMCLEVENTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateSyncFromCLeventARB'),
+    );
 
     return $function(...$args);
 }
 
 function glDispatchComputeGroupSizeARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDISPATCHCOMPUTEGROUPSIZEARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glDispatchComputeGroupSizeARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDISPATCHCOMPUTEGROUPSIZEARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDispatchComputeGroupSizeARB'),
+    );
 
     return $function(...$args);
 }
 
 function glDebugMessageControlARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEBUGMESSAGECONTROLARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glDebugMessageControlARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEBUGMESSAGECONTROLARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDebugMessageControlARB'),
+    );
 
     return $function(...$args);
 }
 
 function glDebugMessageInsertARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEBUGMESSAGEINSERTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glDebugMessageInsertARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEBUGMESSAGEINSERTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDebugMessageInsertARB'),
+    );
 
     return $function(...$args);
 }
 
 function glDebugMessageCallbackARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEBUGMESSAGECALLBACKARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glDebugMessageCallbackARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEBUGMESSAGECALLBACKARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDebugMessageCallbackARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetDebugMessageLogARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETDEBUGMESSAGELOGARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetDebugMessageLogARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETDEBUGMESSAGELOGARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetDebugMessageLogARB'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendEquationiARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDEQUATIONIARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendEquationiARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDEQUATIONIARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendEquationiARB'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendEquationSeparateiARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDEQUATIONSEPARATEIARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendEquationSeparateiARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDEQUATIONSEPARATEIARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendEquationSeparateiARB'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendFunciARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDFUNCIARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendFunciARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDFUNCIARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendFunciARB'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendFuncSeparateiARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDFUNCSEPARATEIARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendFuncSeparateiARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDFUNCSEPARATEIARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendFuncSeparateiARB'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawArraysInstancedARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWARRAYSINSTANCEDARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawArraysInstancedARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWARRAYSINSTANCEDARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawArraysInstancedARB'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawElementsInstancedARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWELEMENTSINSTANCEDARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsInstancedARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWELEMENTSINSTANCEDARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsInstancedARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramParameteriARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMPARAMETERIARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramParameteriARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMPARAMETERIARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramParameteriARB'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferTextureARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERTEXTUREARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTextureARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERTEXTUREARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTextureARB'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferTextureLayerARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERTEXTURELAYERARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTextureLayerARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERTEXTURELAYERARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTextureLayerARB'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferTextureFaceARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERTEXTUREFACEARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTextureFaceARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERTEXTUREFACEARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTextureFaceARB'),
+    );
 
     return $function(...$args);
 }
 
 function glSpecializeShaderARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSPECIALIZESHADERARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glSpecializeShaderARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSPECIALIZESHADERARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSpecializeShaderARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1i64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1I64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1i64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1I64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1i64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2i64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2I64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2i64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2I64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2i64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3i64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3I64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3i64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3I64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3i64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4i64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4I64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4i64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4I64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4i64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1i64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1I64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1i64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1I64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1i64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2i64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2I64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2i64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2I64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2i64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3i64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3I64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3i64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3I64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3i64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4i64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4I64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4i64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4I64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4i64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1ui64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1UI64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1ui64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1UI64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1ui64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2ui64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2UI64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2ui64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2UI64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2ui64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3ui64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3UI64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3ui64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3UI64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3ui64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4ui64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4UI64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4ui64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4UI64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4ui64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1ui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1UI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1ui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1UI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1ui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2ui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2UI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2ui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2UI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2ui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3ui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3UI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3ui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3UI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3ui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4ui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4UI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4ui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4UI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4ui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetUniformi64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETUNIFORMI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetUniformi64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETUNIFORMI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetUniformi64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetUniformui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETUNIFORMUI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetUniformui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETUNIFORMUI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetUniformui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnUniformi64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNUNIFORMI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformi64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNUNIFORMI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformi64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnUniformui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNUNIFORMUI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNUNIFORMUI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1i64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1I64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1i64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1I64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1i64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2i64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2I64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2i64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2I64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2i64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3i64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3I64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3i64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3I64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3i64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4i64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4I64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4i64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4I64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4i64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1i64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1I64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1i64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1I64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1i64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2i64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2I64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2i64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2I64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2i64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3i64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3I64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3i64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3I64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3i64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4i64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4I64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4i64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4I64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4i64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1ui64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1UI64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1ui64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1UI64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1ui64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2ui64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2UI64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2ui64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2UI64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2ui64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3ui64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3UI64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3ui64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3UI64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3ui64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4ui64ARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4UI64ARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4ui64ARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4UI64ARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4ui64ARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1ui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1UI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1ui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1UI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1ui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2ui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2UI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2ui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2UI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2ui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3ui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3UI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3ui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3UI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3ui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4ui64vARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4UI64VARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4ui64vARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4UI64VARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4ui64vARB'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawArraysIndirectCountARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWARRAYSINDIRECTCOUNTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawArraysIndirectCountARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWARRAYSINDIRECTCOUNTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawArraysIndirectCountARB'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawElementsIndirectCountARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWELEMENTSINDIRECTCOUNTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElementsIndirectCountARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWELEMENTSINDIRECTCOUNTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElementsIndirectCountARB'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribDivisorARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBDIVISORARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribDivisorARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBDIVISORARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribDivisorARB'),
+    );
 
     return $function(...$args);
 }
 
 function glMaxShaderCompilerThreadsARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAXSHADERCOMPILERTHREADSARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glMaxShaderCompilerThreadsARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAXSHADERCOMPILERTHREADSARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMaxShaderCompilerThreadsARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetGraphicsResetStatusARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETGRAPHICSRESETSTATUSARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetGraphicsResetStatusARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETGRAPHICSRESETSTATUSARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetGraphicsResetStatusARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnTexImageARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNTEXIMAGEARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnTexImageARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNTEXIMAGEARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnTexImageARB'),
+    );
 
     return $function(...$args);
 }
 
 function glReadnPixelsARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLREADNPIXELSARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glReadnPixelsARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLREADNPIXELSARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glReadnPixelsARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnCompressedTexImageARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNCOMPRESSEDTEXIMAGEARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnCompressedTexImageARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNCOMPRESSEDTEXIMAGEARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnCompressedTexImageARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnUniformfvARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNUNIFORMFVARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformfvARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNUNIFORMFVARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformfvARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnUniformivARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNUNIFORMIVARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformivARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNUNIFORMIVARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformivARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnUniformuivARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNUNIFORMUIVARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformuivARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNUNIFORMUIVARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformuivARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetnUniformdvARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNUNIFORMDVARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformdvARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNUNIFORMDVARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetnUniformdvARB'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferSampleLocationsfvARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERSAMPLELOCATIONSFVARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferSampleLocationsfvARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERSAMPLELOCATIONSFVARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferSampleLocationsfvARB'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferSampleLocationsfvARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERSAMPLELOCATIONSFVARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferSampleLocationsfvARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERSAMPLELOCATIONSFVARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferSampleLocationsfvARB'),
+    );
 
     return $function(...$args);
 }
 
 function glEvaluateDepthValuesARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLEVALUATEDEPTHVALUESARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glEvaluateDepthValuesARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLEVALUATEDEPTHVALUESARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEvaluateDepthValuesARB'),
+    );
 
     return $function(...$args);
 }
 
 function glMinSampleShadingARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMINSAMPLESHADINGARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glMinSampleShadingARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMINSAMPLESHADINGARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMinSampleShadingARB'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedStringARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDSTRINGARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedStringARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDSTRINGARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedStringARB'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteNamedStringARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETENAMEDSTRINGARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteNamedStringARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETENAMEDSTRINGARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteNamedStringARB'),
+    );
 
     return $function(...$args);
 }
 
 function glCompileShaderIncludeARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPILESHADERINCLUDEARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompileShaderIncludeARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPILESHADERINCLUDEARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompileShaderIncludeARB'),
+    );
 
     return $function(...$args);
 }
 
 function glIsNamedStringARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISNAMEDSTRINGARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsNamedStringARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISNAMEDSTRINGARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsNamedStringARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedStringARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDSTRINGARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedStringARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDSTRINGARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedStringARB'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedStringivARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDSTRINGIVARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedStringivARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDSTRINGIVARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedStringivARB'),
+    );
 
     return $function(...$args);
 }
 
 function glBufferPageCommitmentARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBUFFERPAGECOMMITMENTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glBufferPageCommitmentARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBUFFERPAGECOMMITMENTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBufferPageCommitmentARB'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedBufferPageCommitmentEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDBUFFERPAGECOMMITMENTEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferPageCommitmentEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDBUFFERPAGECOMMITMENTEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferPageCommitmentEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedBufferPageCommitmentARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDBUFFERPAGECOMMITMENTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferPageCommitmentARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDBUFFERPAGECOMMITMENTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferPageCommitmentARB'),
+    );
 
     return $function(...$args);
 }
 
 function glTexPageCommitmentARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXPAGECOMMITMENTARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexPageCommitmentARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXPAGECOMMITMENTARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexPageCommitmentARB'),
+    );
 
     return $function(...$args);
 }
 
 function glTexBufferARB(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXBUFFERARBPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexBufferARB'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXBUFFERARBPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexBufferARB'),
+    );
 
     return $function(...$args);
 }
 
 function glDepthRangeArraydvNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEPTHRANGEARRAYDVNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDepthRangeArraydvNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEPTHRANGEARRAYDVNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDepthRangeArraydvNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDepthRangeIndexeddNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEPTHRANGEINDEXEDDNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDepthRangeIndexeddNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEPTHRANGEINDEXEDDNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDepthRangeIndexeddNV'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendBarrierKHR(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDBARRIERKHRPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendBarrierKHR'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDBARRIERKHRPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendBarrierKHR'),
+    );
 
     return $function(...$args);
 }
 
 function glMaxShaderCompilerThreadsKHR(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAXSHADERCOMPILERTHREADSKHRPROC', GLFW_INSTANCE->glfwGetProcAddress('glMaxShaderCompilerThreadsKHR'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAXSHADERCOMPILERTHREADSKHRPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMaxShaderCompilerThreadsKHR'),
+    );
 
     return $function(...$args);
 }
 
 function glRenderbufferStorageMultisampleAdvancedAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLRENDERBUFFERSTORAGEMULTISAMPLEADVANCEDAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glRenderbufferStorageMultisampleAdvancedAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLRENDERBUFFERSTORAGEMULTISAMPLEADVANCEDAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glRenderbufferStorageMultisampleAdvancedAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedRenderbufferStorageMultisampleAdvancedAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDRENDERBUFFERSTORAGEMULTISAMPLEADVANCEDAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedRenderbufferStorageMultisampleAdvancedAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDRENDERBUFFERSTORAGEMULTISAMPLEADVANCEDAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedRenderbufferStorageMultisampleAdvancedAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPerfMonitorGroupsAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPERFMONITORGROUPSAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPerfMonitorGroupsAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPERFMONITORGROUPSAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPerfMonitorGroupsAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPerfMonitorCountersAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPERFMONITORCOUNTERSAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPerfMonitorCountersAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPERFMONITORCOUNTERSAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPerfMonitorCountersAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPerfMonitorGroupStringAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPERFMONITORGROUPSTRINGAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPerfMonitorGroupStringAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPERFMONITORGROUPSTRINGAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPerfMonitorGroupStringAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPerfMonitorCounterStringAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPERFMONITORCOUNTERSTRINGAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPerfMonitorCounterStringAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPERFMONITORCOUNTERSTRINGAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPerfMonitorCounterStringAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPerfMonitorCounterInfoAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPERFMONITORCOUNTERINFOAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPerfMonitorCounterInfoAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPERFMONITORCOUNTERINFOAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPerfMonitorCounterInfoAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glGenPerfMonitorsAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENPERFMONITORSAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenPerfMonitorsAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENPERFMONITORSAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenPerfMonitorsAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glDeletePerfMonitorsAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETEPERFMONITORSAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeletePerfMonitorsAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETEPERFMONITORSAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeletePerfMonitorsAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glSelectPerfMonitorCountersAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSELECTPERFMONITORCOUNTERSAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glSelectPerfMonitorCountersAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSELECTPERFMONITORCOUNTERSAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSelectPerfMonitorCountersAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glBeginPerfMonitorAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBEGINPERFMONITORAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glBeginPerfMonitorAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBEGINPERFMONITORAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBeginPerfMonitorAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glEndPerfMonitorAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENDPERFMONITORAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glEndPerfMonitorAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENDPERFMONITORAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEndPerfMonitorAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPerfMonitorCounterDataAMD(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPERFMONITORCOUNTERDATAAMDPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPerfMonitorCounterDataAMD'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPERFMONITORCOUNTERDATAAMDPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPerfMonitorCounterDataAMD'),
+    );
 
     return $function(...$args);
 }
 
 function glEGLImageTargetTexStorageEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLEGLIMAGETARGETTEXSTORAGEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glEGLImageTargetTexStorageEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLEGLIMAGETARGETTEXSTORAGEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEGLImageTargetTexStorageEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glEGLImageTargetTextureStorageEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLEGLIMAGETARGETTEXTURESTORAGEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glEGLImageTargetTextureStorageEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLEGLIMAGETARGETTEXTURESTORAGEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEGLImageTargetTextureStorageEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glLabelObjectEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLLABELOBJECTEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glLabelObjectEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLLABELOBJECTEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glLabelObjectEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetObjectLabelEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETOBJECTLABELEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetObjectLabelEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETOBJECTLABELEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetObjectLabelEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glInsertEventMarkerEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLINSERTEVENTMARKEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glInsertEventMarkerEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLINSERTEVENTMARKEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glInsertEventMarkerEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glPushGroupMarkerEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPUSHGROUPMARKEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glPushGroupMarkerEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPUSHGROUPMARKEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPushGroupMarkerEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glPopGroupMarkerEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPOPGROUPMARKEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glPopGroupMarkerEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPOPGROUPMARKEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPopGroupMarkerEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixLoadfEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXLOADFEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoadfEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXLOADFEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoadfEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixLoaddEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXLOADDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoaddEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXLOADDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoaddEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixMultfEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXMULTFEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixMultfEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXMULTFEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixMultfEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixMultdEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXMULTDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixMultdEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXMULTDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixMultdEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixLoadIdentityEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXLOADIDENTITYEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoadIdentityEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXLOADIDENTITYEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoadIdentityEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixRotatefEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXROTATEFEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixRotatefEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXROTATEFEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixRotatefEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixRotatedEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXROTATEDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixRotatedEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXROTATEDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixRotatedEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixScalefEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXSCALEFEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixScalefEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXSCALEFEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixScalefEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixScaledEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXSCALEDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixScaledEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXSCALEDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixScaledEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixTranslatefEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXTRANSLATEFEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixTranslatefEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXTRANSLATEFEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixTranslatefEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixTranslatedEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXTRANSLATEDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixTranslatedEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXTRANSLATEDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixTranslatedEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixFrustumEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXFRUSTUMEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixFrustumEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXFRUSTUMEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixFrustumEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixOrthoEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXORTHOEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixOrthoEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXORTHOEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixOrthoEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixPopEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXPOPEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixPopEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXPOPEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixPopEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixPushEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXPUSHEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixPushEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXPUSHEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixPushEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glClientAttribDefaultEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLIENTATTRIBDEFAULTEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glClientAttribDefaultEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLIENTATTRIBDEFAULTEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClientAttribDefaultEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glPushClientAttribDefaultEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPUSHCLIENTATTRIBDEFAULTEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glPushClientAttribDefaultEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPUSHCLIENTATTRIBDEFAULTEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPushClientAttribDefaultEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureParameterfEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPARAMETERFEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterfEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPARAMETERFEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterfEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureParameterfvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPARAMETERFVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterfvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPARAMETERFVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterfvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureParameteriEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPARAMETERIEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureParameteriEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPARAMETERIEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureParameteriEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureParameterivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPARAMETERIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPARAMETERIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureImage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREIMAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureImage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREIMAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureImage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureImage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREIMAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureImage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREIMAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureImage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureSubImage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESUBIMAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureSubImage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESUBIMAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureSubImage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureSubImage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESUBIMAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureSubImage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESUBIMAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureSubImage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTextureImage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXTUREIMAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureImage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXTUREIMAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureImage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTextureImage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXTUREIMAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureImage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXTUREIMAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureImage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTextureSubImage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXTURESUBIMAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureSubImage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXTURESUBIMAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureSubImage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTextureSubImage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXTURESUBIMAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureSubImage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXTURESUBIMAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureSubImage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureImageEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTUREIMAGEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureImageEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTUREIMAGEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureImageEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureParameterfvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTUREPARAMETERFVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterfvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTUREPARAMETERFVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterfvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureParameterivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTUREPARAMETERIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTUREPARAMETERIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureLevelParameterfvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTURELEVELPARAMETERFVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureLevelParameterfvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTURELEVELPARAMETERFVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureLevelParameterfvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureLevelParameterivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTURELEVELPARAMETERIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureLevelParameterivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTURELEVELPARAMETERIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureLevelParameterivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureImage3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREIMAGE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureImage3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREIMAGE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureImage3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureSubImage3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESUBIMAGE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureSubImage3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESUBIMAGE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureSubImage3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyTextureSubImage3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYTEXTURESUBIMAGE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureSubImage3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYTEXTURESUBIMAGE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyTextureSubImage3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glBindMultiTextureEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDMULTITEXTUREEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindMultiTextureEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDMULTITEXTUREEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindMultiTextureEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexCoordPointerEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXCOORDPOINTEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexCoordPointerEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXCOORDPOINTEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexCoordPointerEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexEnvfEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXENVFEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexEnvfEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXENVFEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexEnvfEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexEnvfvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXENVFVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexEnvfvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXENVFVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexEnvfvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexEnviEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXENVIEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexEnviEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXENVIEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexEnviEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexEnvivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXENVIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexEnvivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXENVIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexEnvivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexGendEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXGENDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexGendEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXGENDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexGendEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexGendvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXGENDVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexGendvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXGENDVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexGendvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexGenfEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXGENFEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexGenfEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXGENFEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexGenfEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexGenfvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXGENFVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexGenfvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXGENFVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexGenfvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexGeniEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXGENIEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexGeniEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXGENIEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexGeniEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexGenivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXGENIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexGenivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXGENIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexGenivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultiTexEnvfvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTITEXENVFVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexEnvfvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTITEXENVFVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexEnvfvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultiTexEnvivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTITEXENVIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexEnvivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTITEXENVIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexEnvivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultiTexGendvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTITEXGENDVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexGendvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTITEXGENDVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexGendvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultiTexGenfvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTITEXGENFVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexGenfvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTITEXGENFVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexGenfvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultiTexGenivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTITEXGENIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexGenivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTITEXGENIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexGenivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexParameteriEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXPARAMETERIEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexParameteriEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXPARAMETERIEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexParameteriEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexParameterivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXPARAMETERIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexParameterivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXPARAMETERIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexParameterivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexParameterfEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXPARAMETERFEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexParameterfEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXPARAMETERFEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexParameterfEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexParameterfvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXPARAMETERFVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexParameterfvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXPARAMETERFVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexParameterfvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexImage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXIMAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexImage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXIMAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexImage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexImage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXIMAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexImage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXIMAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexImage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexSubImage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXSUBIMAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexSubImage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXSUBIMAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexSubImage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexSubImage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXSUBIMAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexSubImage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXSUBIMAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexSubImage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyMultiTexImage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYMULTITEXIMAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyMultiTexImage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYMULTITEXIMAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyMultiTexImage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyMultiTexImage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYMULTITEXIMAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyMultiTexImage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYMULTITEXIMAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyMultiTexImage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyMultiTexSubImage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYMULTITEXSUBIMAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyMultiTexSubImage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYMULTITEXSUBIMAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyMultiTexSubImage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyMultiTexSubImage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYMULTITEXSUBIMAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyMultiTexSubImage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYMULTITEXSUBIMAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyMultiTexSubImage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultiTexImageEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTITEXIMAGEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexImageEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTITEXIMAGEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexImageEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultiTexParameterfvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTITEXPARAMETERFVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexParameterfvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTITEXPARAMETERFVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexParameterfvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultiTexParameterivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTITEXPARAMETERIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexParameterivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTITEXPARAMETERIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexParameterivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultiTexLevelParameterfvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTITEXLEVELPARAMETERFVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexLevelParameterfvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTITEXLEVELPARAMETERFVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexLevelParameterfvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultiTexLevelParameterivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTITEXLEVELPARAMETERIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexLevelParameterivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTITEXLEVELPARAMETERIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexLevelParameterivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexImage3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXIMAGE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexImage3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXIMAGE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexImage3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexSubImage3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXSUBIMAGE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexSubImage3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXSUBIMAGE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexSubImage3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyMultiTexSubImage3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYMULTITEXSUBIMAGE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyMultiTexSubImage3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYMULTITEXSUBIMAGE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyMultiTexSubImage3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glEnableClientStateIndexedEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENABLECLIENTSTATEINDEXEDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glEnableClientStateIndexedEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENABLECLIENTSTATEINDEXEDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEnableClientStateIndexedEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glDisableClientStateIndexedEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDISABLECLIENTSTATEINDEXEDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDisableClientStateIndexedEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDISABLECLIENTSTATEINDEXEDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDisableClientStateIndexedEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetFloatIndexedvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETFLOATINDEXEDVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetFloatIndexedvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETFLOATINDEXEDVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetFloatIndexedvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetDoubleIndexedvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETDOUBLEINDEXEDVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetDoubleIndexedvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETDOUBLEINDEXEDVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetDoubleIndexedvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPointerIndexedvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPOINTERINDEXEDVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPointerIndexedvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPOINTERINDEXEDVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPointerIndexedvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glEnableIndexedEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENABLEINDEXEDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glEnableIndexedEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENABLEINDEXEDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEnableIndexedEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glDisableIndexedEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDISABLEINDEXEDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDisableIndexedEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDISABLEINDEXEDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDisableIndexedEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glIsEnabledIndexedEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISENABLEDINDEXEDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsEnabledIndexedEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISENABLEDINDEXEDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsEnabledIndexedEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetIntegerIndexedvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETINTEGERINDEXEDVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetIntegerIndexedvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETINTEGERINDEXEDVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetIntegerIndexedvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetBooleanIndexedvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETBOOLEANINDEXEDVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetBooleanIndexedvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETBOOLEANINDEXEDVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetBooleanIndexedvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTextureImage3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXTUREIMAGE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureImage3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXTUREIMAGE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureImage3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTextureImage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXTUREIMAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureImage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXTUREIMAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureImage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTextureImage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXTUREIMAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureImage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXTUREIMAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureImage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTextureSubImage3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXTURESUBIMAGE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureSubImage3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXTURESUBIMAGE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureSubImage3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTextureSubImage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXTURESUBIMAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureSubImage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXTURESUBIMAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureSubImage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedTextureSubImage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDTEXTURESUBIMAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureSubImage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDTEXTURESUBIMAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedTextureSubImage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetCompressedTextureImageEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETCOMPRESSEDTEXTUREIMAGEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetCompressedTextureImageEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETCOMPRESSEDTEXTUREIMAGEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetCompressedTextureImageEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedMultiTexImage3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDMULTITEXIMAGE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedMultiTexImage3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDMULTITEXIMAGE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedMultiTexImage3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedMultiTexImage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDMULTITEXIMAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedMultiTexImage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDMULTITEXIMAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedMultiTexImage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedMultiTexImage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDMULTITEXIMAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedMultiTexImage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDMULTITEXIMAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedMultiTexImage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedMultiTexSubImage3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDMULTITEXSUBIMAGE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedMultiTexSubImage3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDMULTITEXSUBIMAGE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedMultiTexSubImage3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedMultiTexSubImage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDMULTITEXSUBIMAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedMultiTexSubImage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDMULTITEXSUBIMAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedMultiTexSubImage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCompressedMultiTexSubImage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPRESSEDMULTITEXSUBIMAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompressedMultiTexSubImage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPRESSEDMULTITEXSUBIMAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompressedMultiTexSubImage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetCompressedMultiTexImageEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETCOMPRESSEDMULTITEXIMAGEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetCompressedMultiTexImageEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETCOMPRESSEDMULTITEXIMAGEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetCompressedMultiTexImageEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixLoadTransposefEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXLOADTRANSPOSEFEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoadTransposefEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXLOADTRANSPOSEFEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoadTransposefEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixLoadTransposedEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXLOADTRANSPOSEDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoadTransposedEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXLOADTRANSPOSEDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoadTransposedEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixMultTransposefEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXMULTTRANSPOSEFEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixMultTransposefEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXMULTTRANSPOSEFEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixMultTransposefEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixMultTransposedEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXMULTTRANSPOSEDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixMultTransposedEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXMULTTRANSPOSEDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixMultTransposedEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedBufferDataEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDBUFFERDATAEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferDataEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDBUFFERDATAEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferDataEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedBufferSubDataEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDBUFFERSUBDATAEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferSubDataEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDBUFFERSUBDATAEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferSubDataEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMapNamedBufferEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAPNAMEDBUFFEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMapNamedBufferEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAPNAMEDBUFFEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMapNamedBufferEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glUnmapNamedBufferEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNMAPNAMEDBUFFEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glUnmapNamedBufferEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNMAPNAMEDBUFFEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUnmapNamedBufferEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedBufferParameterivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDBUFFERPARAMETERIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferParameterivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDBUFFERPARAMETERIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferParameterivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedBufferPointervEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDBUFFERPOINTERVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferPointervEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDBUFFERPOINTERVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferPointervEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedBufferSubDataEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDBUFFERSUBDATAEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferSubDataEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDBUFFERSUBDATAEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferSubDataEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1fEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1FEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1fEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1FEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1fEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2fEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2FEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2fEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2FEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2fEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3fEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3FEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3fEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3FEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3fEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4fEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4FEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4fEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4FEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4fEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1iEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1IEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1iEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1IEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1iEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2iEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2IEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2iEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2IEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2iEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3iEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3IEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3iEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3IEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3iEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4iEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4IEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4iEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4IEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4iEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1ivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1IVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1ivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1IVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1ivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2ivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2IVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2ivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2IVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2ivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3ivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3IVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3ivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3IVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3ivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4ivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4IVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4ivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4IVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4ivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix2fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX2FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX2FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix3fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX3FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX3FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix4fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX4FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX4FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix2x3fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX2X3FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x3fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX2X3FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x3fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix3x2fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX3X2FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x2fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX3X2FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x2fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix2x4fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX2X4FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x4fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX2X4FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x4fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix4x2fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX4X2FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x2fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX4X2FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x2fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix3x4fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX3X4FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x4fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX3X4FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x4fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix4x3fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX4X3FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x3fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX4X3FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x3fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureBufferEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREBUFFEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureBufferEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREBUFFEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureBufferEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexBufferEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXBUFFEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexBufferEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXBUFFEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexBufferEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureParameterIivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPARAMETERIIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterIivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPARAMETERIIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterIivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureParameterIuivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPARAMETERIUIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterIuivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPARAMETERIUIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureParameterIuivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureParameterIivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTUREPARAMETERIIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterIivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTUREPARAMETERIIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterIivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureParameterIuivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTUREPARAMETERIUIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterIuivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTUREPARAMETERIUIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureParameterIuivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexParameterIivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXPARAMETERIIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexParameterIivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXPARAMETERIIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexParameterIivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexParameterIuivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXPARAMETERIUIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexParameterIuivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXPARAMETERIUIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexParameterIuivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultiTexParameterIivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTITEXPARAMETERIIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexParameterIivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTITEXPARAMETERIIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexParameterIivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMultiTexParameterIuivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMULTITEXPARAMETERIUIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexParameterIuivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMULTITEXPARAMETERIUIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMultiTexParameterIuivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1uiEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1UIEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1uiEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1UIEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1uiEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2uiEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2UIEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2uiEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2UIEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2uiEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3uiEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3UIEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3uiEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3UIEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3uiEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4uiEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4UIEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4uiEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4UIEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4uiEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1uivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1UIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1uivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1UIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1uivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2uivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2UIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2uivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2UIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2uivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3uivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3UIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3uivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3UIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3uivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4uivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4UIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4uivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4UIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4uivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedProgramLocalParameters4fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDPROGRAMLOCALPARAMETERS4FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameters4fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDPROGRAMLOCALPARAMETERS4FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameters4fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedProgramLocalParameterI4iEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDPROGRAMLOCALPARAMETERI4IEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameterI4iEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDPROGRAMLOCALPARAMETERI4IEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameterI4iEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedProgramLocalParameterI4ivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDPROGRAMLOCALPARAMETERI4IVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameterI4ivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDPROGRAMLOCALPARAMETERI4IVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameterI4ivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedProgramLocalParametersI4ivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDPROGRAMLOCALPARAMETERSI4IVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParametersI4ivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDPROGRAMLOCALPARAMETERSI4IVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParametersI4ivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedProgramLocalParameterI4uiEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDPROGRAMLOCALPARAMETERI4UIEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameterI4uiEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDPROGRAMLOCALPARAMETERI4UIEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameterI4uiEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedProgramLocalParameterI4uivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDPROGRAMLOCALPARAMETERI4UIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameterI4uivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDPROGRAMLOCALPARAMETERI4UIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameterI4uivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedProgramLocalParametersI4uivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDPROGRAMLOCALPARAMETERSI4UIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParametersI4uivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDPROGRAMLOCALPARAMETERSI4UIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParametersI4uivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedProgramLocalParameterIivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDPROGRAMLOCALPARAMETERIIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedProgramLocalParameterIivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDPROGRAMLOCALPARAMETERIIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedProgramLocalParameterIivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedProgramLocalParameterIuivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDPROGRAMLOCALPARAMETERIUIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedProgramLocalParameterIuivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDPROGRAMLOCALPARAMETERIUIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedProgramLocalParameterIuivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glEnableClientStateiEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENABLECLIENTSTATEIEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glEnableClientStateiEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENABLECLIENTSTATEIEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEnableClientStateiEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glDisableClientStateiEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDISABLECLIENTSTATEIEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDisableClientStateiEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDISABLECLIENTSTATEIEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDisableClientStateiEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetFloati_vEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETFLOATI_VEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetFloati_vEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETFLOATI_VEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetFloati_vEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetDoublei_vEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETDOUBLEI_VEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetDoublei_vEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETDOUBLEI_VEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetDoublei_vEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPointeri_vEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPOINTERI_VEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPointeri_vEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPOINTERI_VEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPointeri_vEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedProgramStringEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDPROGRAMSTRINGEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramStringEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDPROGRAMSTRINGEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramStringEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedProgramLocalParameter4dEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDPROGRAMLOCALPARAMETER4DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameter4dEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDPROGRAMLOCALPARAMETER4DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameter4dEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedProgramLocalParameter4dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDPROGRAMLOCALPARAMETER4DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameter4dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDPROGRAMLOCALPARAMETER4DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameter4dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedProgramLocalParameter4fEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDPROGRAMLOCALPARAMETER4FEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameter4fEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDPROGRAMLOCALPARAMETER4FEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameter4fEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedProgramLocalParameter4fvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDPROGRAMLOCALPARAMETER4FVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameter4fvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDPROGRAMLOCALPARAMETER4FVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedProgramLocalParameter4fvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedProgramLocalParameterdvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDPROGRAMLOCALPARAMETERDVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedProgramLocalParameterdvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDPROGRAMLOCALPARAMETERDVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedProgramLocalParameterdvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedProgramLocalParameterfvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDPROGRAMLOCALPARAMETERFVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedProgramLocalParameterfvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDPROGRAMLOCALPARAMETERFVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedProgramLocalParameterfvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedProgramivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDPROGRAMIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedProgramivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDPROGRAMIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedProgramivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedProgramStringEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDPROGRAMSTRINGEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedProgramStringEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDPROGRAMSTRINGEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedProgramStringEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedRenderbufferStorageEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDRENDERBUFFERSTORAGEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedRenderbufferStorageEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDRENDERBUFFERSTORAGEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedRenderbufferStorageEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedRenderbufferParameterivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDRENDERBUFFERPARAMETERIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedRenderbufferParameterivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDRENDERBUFFERPARAMETERIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedRenderbufferParameterivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedRenderbufferStorageMultisampleEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDRENDERBUFFERSTORAGEMULTISAMPLEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedRenderbufferStorageMultisampleEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDRENDERBUFFERSTORAGEMULTISAMPLEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedRenderbufferStorageMultisampleEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedRenderbufferStorageMultisampleCoverageEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDRENDERBUFFERSTORAGEMULTISAMPLECOVERAGEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedRenderbufferStorageMultisampleCoverageEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDRENDERBUFFERSTORAGEMULTISAMPLECOVERAGEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedRenderbufferStorageMultisampleCoverageEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCheckNamedFramebufferStatusEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCHECKNAMEDFRAMEBUFFERSTATUSEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCheckNamedFramebufferStatusEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCHECKNAMEDFRAMEBUFFERSTATUSEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCheckNamedFramebufferStatusEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferTexture1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERTEXTURE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTexture1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERTEXTURE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTexture1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferTexture2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERTEXTURE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTexture2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERTEXTURE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTexture2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferTexture3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERTEXTURE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTexture3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERTEXTURE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTexture3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferRenderbufferEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERRENDERBUFFEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferRenderbufferEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERRENDERBUFFEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferRenderbufferEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedFramebufferAttachmentParameterivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDFRAMEBUFFERATTACHMENTPARAMETERIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedFramebufferAttachmentParameterivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDFRAMEBUFFERATTACHMENTPARAMETERIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedFramebufferAttachmentParameterivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGenerateTextureMipmapEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENERATETEXTUREMIPMAPEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenerateTextureMipmapEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENERATETEXTUREMIPMAPEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenerateTextureMipmapEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGenerateMultiTexMipmapEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENERATEMULTITEXMIPMAPEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenerateMultiTexMipmapEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENERATEMULTITEXMIPMAPEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenerateMultiTexMipmapEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferDrawBufferEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERDRAWBUFFEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferDrawBufferEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERDRAWBUFFEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferDrawBufferEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferDrawBuffersEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERDRAWBUFFERSEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferDrawBuffersEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERDRAWBUFFERSEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferDrawBuffersEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferReadBufferEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERREADBUFFEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferReadBufferEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERREADBUFFEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferReadBufferEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetFramebufferParameterivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETFRAMEBUFFERPARAMETERIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetFramebufferParameterivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETFRAMEBUFFERPARAMETERIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetFramebufferParameterivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedCopyBufferSubDataEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDCOPYBUFFERSUBDATAEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedCopyBufferSubDataEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDCOPYBUFFERSUBDATAEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedCopyBufferSubDataEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferTextureEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERTEXTUREEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTextureEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERTEXTUREEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTextureEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferTextureLayerEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERTEXTURELAYEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTextureLayerEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERTEXTURELAYEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTextureLayerEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferTextureFaceEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERTEXTUREFACEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTextureFaceEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERTEXTUREFACEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTextureFaceEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureRenderbufferEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURERENDERBUFFEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureRenderbufferEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURERENDERBUFFEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureRenderbufferEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiTexRenderbufferEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTITEXRENDERBUFFEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiTexRenderbufferEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTITEXRENDERBUFFEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiTexRenderbufferEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayVertexOffsetEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYVERTEXOFFSETEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexOffsetEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYVERTEXOFFSETEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexOffsetEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayColorOffsetEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYCOLOROFFSETEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayColorOffsetEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYCOLOROFFSETEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayColorOffsetEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayEdgeFlagOffsetEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYEDGEFLAGOFFSETEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayEdgeFlagOffsetEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYEDGEFLAGOFFSETEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayEdgeFlagOffsetEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayIndexOffsetEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYINDEXOFFSETEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayIndexOffsetEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYINDEXOFFSETEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayIndexOffsetEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayNormalOffsetEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYNORMALOFFSETEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayNormalOffsetEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYNORMALOFFSETEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayNormalOffsetEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayTexCoordOffsetEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYTEXCOORDOFFSETEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayTexCoordOffsetEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYTEXCOORDOFFSETEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayTexCoordOffsetEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayMultiTexCoordOffsetEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYMULTITEXCOORDOFFSETEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayMultiTexCoordOffsetEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYMULTITEXCOORDOFFSETEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayMultiTexCoordOffsetEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayFogCoordOffsetEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYFOGCOORDOFFSETEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayFogCoordOffsetEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYFOGCOORDOFFSETEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayFogCoordOffsetEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArraySecondaryColorOffsetEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYSECONDARYCOLOROFFSETEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArraySecondaryColorOffsetEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYSECONDARYCOLOROFFSETEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArraySecondaryColorOffsetEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayVertexAttribOffsetEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYVERTEXATTRIBOFFSETEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribOffsetEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYVERTEXATTRIBOFFSETEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribOffsetEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayVertexAttribIOffsetEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYVERTEXATTRIBIOFFSETEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribIOffsetEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYVERTEXATTRIBIOFFSETEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribIOffsetEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glEnableVertexArrayEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENABLEVERTEXARRAYEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glEnableVertexArrayEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENABLEVERTEXARRAYEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEnableVertexArrayEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glDisableVertexArrayEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDISABLEVERTEXARRAYEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDisableVertexArrayEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDISABLEVERTEXARRAYEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDisableVertexArrayEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glEnableVertexArrayAttribEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENABLEVERTEXARRAYATTRIBEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glEnableVertexArrayAttribEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENABLEVERTEXARRAYATTRIBEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEnableVertexArrayAttribEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glDisableVertexArrayAttribEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDISABLEVERTEXARRAYATTRIBEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDisableVertexArrayAttribEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDISABLEVERTEXARRAYATTRIBEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDisableVertexArrayAttribEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexArrayIntegervEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXARRAYINTEGERVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayIntegervEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXARRAYINTEGERVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayIntegervEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexArrayPointervEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXARRAYPOINTERVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayPointervEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXARRAYPOINTERVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayPointervEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexArrayIntegeri_vEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXARRAYINTEGERI_VEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayIntegeri_vEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXARRAYINTEGERI_VEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayIntegeri_vEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexArrayPointeri_vEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXARRAYPOINTERI_VEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayPointeri_vEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXARRAYPOINTERI_VEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexArrayPointeri_vEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMapNamedBufferRangeEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAPNAMEDBUFFERRANGEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMapNamedBufferRangeEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAPNAMEDBUFFERRANGEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMapNamedBufferRangeEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glFlushMappedNamedBufferRangeEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFLUSHMAPPEDNAMEDBUFFERRANGEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glFlushMappedNamedBufferRangeEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFLUSHMAPPEDNAMEDBUFFERRANGEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFlushMappedNamedBufferRangeEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedBufferStorageEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDBUFFERSTORAGEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferStorageEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDBUFFERSTORAGEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferStorageEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glClearNamedBufferDataEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARNAMEDBUFFERDATAEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearNamedBufferDataEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARNAMEDBUFFERDATAEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearNamedBufferDataEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glClearNamedBufferSubDataEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARNAMEDBUFFERSUBDATAEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearNamedBufferSubDataEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARNAMEDBUFFERSUBDATAEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearNamedBufferSubDataEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferParameteriEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERPARAMETERIEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferParameteriEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERPARAMETERIEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferParameteriEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedFramebufferParameterivEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDFRAMEBUFFERPARAMETERIVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedFramebufferParameterivEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDFRAMEBUFFERPARAMETERIVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedFramebufferParameterivEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1dEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1dEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1dEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2dEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2dEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2dEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3dEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3dEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3dEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4dEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4dEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4dEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix2dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX2DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX2DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix3dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX3DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX3DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix4dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX4DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX4DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix2x3dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX2X3DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x3dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX2X3DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x3dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix2x4dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX2X4DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x4dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX2X4DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix2x4dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix3x2dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX3X2DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x2dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX3X2DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x2dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix3x4dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX3X4DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x4dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX3X4DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix3x4dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix4x2dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX4X2DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x2dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX4X2DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x2dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformMatrix4x3dvEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMMATRIX4X3DVEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x3dvEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMMATRIX4X3DVEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformMatrix4x3dvEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureBufferRangeEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREBUFFERRANGEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureBufferRangeEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREBUFFERRANGEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureBufferRangeEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureStorage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESTORAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESTORAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureStorage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESTORAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESTORAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureStorage3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESTORAGE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESTORAGE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureStorage2DMultisampleEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESTORAGE2DMULTISAMPLEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage2DMultisampleEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESTORAGE2DMULTISAMPLEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage2DMultisampleEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureStorage3DMultisampleEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTURESTORAGE3DMULTISAMPLEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage3DMultisampleEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTURESTORAGE3DMULTISAMPLEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureStorage3DMultisampleEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayBindVertexBufferEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYBINDVERTEXBUFFEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayBindVertexBufferEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYBINDVERTEXBUFFEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayBindVertexBufferEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayVertexAttribFormatEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYVERTEXATTRIBFORMATEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribFormatEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYVERTEXATTRIBFORMATEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribFormatEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayVertexAttribIFormatEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYVERTEXATTRIBIFORMATEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribIFormatEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYVERTEXATTRIBIFORMATEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribIFormatEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayVertexAttribLFormatEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYVERTEXATTRIBLFORMATEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribLFormatEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYVERTEXATTRIBLFORMATEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribLFormatEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayVertexAttribBindingEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYVERTEXATTRIBBINDINGEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribBindingEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYVERTEXATTRIBBINDINGEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribBindingEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayVertexBindingDivisorEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYVERTEXBINDINGDIVISOREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexBindingDivisorEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYVERTEXBINDINGDIVISOREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexBindingDivisorEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayVertexAttribLOffsetEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYVERTEXATTRIBLOFFSETEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribLOffsetEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYVERTEXATTRIBLOFFSETEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribLOffsetEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTexturePageCommitmentEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPAGECOMMITMENTEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexturePageCommitmentEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPAGECOMMITMENTEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexturePageCommitmentEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexArrayVertexAttribDivisorEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXARRAYVERTEXATTRIBDIVISOREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribDivisorEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXARRAYVERTEXATTRIBDIVISOREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexArrayVertexAttribDivisorEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawArraysInstancedEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWARRAYSINSTANCEDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawArraysInstancedEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWARRAYSINSTANCEDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawArraysInstancedEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawElementsInstancedEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWELEMENTSINSTANCEDEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsInstancedEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWELEMENTSINSTANCEDEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawElementsInstancedEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glGetFragmentShadingRatesEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETFRAGMENTSHADINGRATESEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetFragmentShadingRatesEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETFRAGMENTSHADINGRATESEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetFragmentShadingRatesEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glShadingRateEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSHADINGRATEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glShadingRateEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSHADINGRATEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glShadingRateEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glShadingRateCombinerOpsEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSHADINGRATECOMBINEROPSEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glShadingRateCombinerOpsEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSHADINGRATECOMBINEROPSEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glShadingRateCombinerOpsEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferShadingRateEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERSHADINGRATEEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferShadingRateEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERSHADINGRATEEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferShadingRateEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawMeshTasksEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWMESHTASKSEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawMeshTasksEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWMESHTASKSEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawMeshTasksEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawMeshTasksIndirectEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWMESHTASKSINDIRECTEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawMeshTasksIndirectEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWMESHTASKSINDIRECTEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawMeshTasksIndirectEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawMeshTasksIndirectEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWMESHTASKSINDIRECTEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawMeshTasksIndirectEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWMESHTASKSINDIRECTEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawMeshTasksIndirectEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawMeshTasksIndirectCountEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWMESHTASKSINDIRECTCOUNTEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawMeshTasksIndirectCountEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWMESHTASKSINDIRECTCOUNTEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawMeshTasksIndirectCountEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glPolygonOffsetClampEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPOLYGONOFFSETCLAMPEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glPolygonOffsetClampEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPOLYGONOFFSETCLAMPEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPolygonOffsetClampEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glRasterSamplesEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLRASTERSAMPLESEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glRasterSamplesEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLRASTERSAMPLESEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glRasterSamplesEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glUseShaderProgramEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUSESHADERPROGRAMEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glUseShaderProgramEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUSESHADERPROGRAMEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUseShaderProgramEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glActiveProgramEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLACTIVEPROGRAMEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glActiveProgramEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLACTIVEPROGRAMEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glActiveProgramEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateShaderProgramEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATESHADERPROGRAMEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateShaderProgramEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATESHADERPROGRAMEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateShaderProgramEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferFetchBarrierEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERFETCHBARRIEREXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferFetchBarrierEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERFETCHBARRIEREXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferFetchBarrierEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTexStorage1DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXSTORAGE1DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexStorage1DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXSTORAGE1DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexStorage1DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTexStorage2DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXSTORAGE2DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexStorage2DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXSTORAGE2DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexStorage2DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glTexStorage3DEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXSTORAGE3DEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexStorage3DEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXSTORAGE3DEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexStorage3DEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glWindowRectanglesEXT(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLWINDOWRECTANGLESEXTPROC', GLFW_INSTANCE->glfwGetProcAddress('glWindowRectanglesEXT'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLWINDOWRECTANGLESEXTPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glWindowRectanglesEXT'),
+    );
 
     return $function(...$args);
 }
 
 function glApplyFramebufferAttachmentCMAAINTEL(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLAPPLYFRAMEBUFFERATTACHMENTCMAAINTELPROC', GLFW_INSTANCE->glfwGetProcAddress('glApplyFramebufferAttachmentCMAAINTEL'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLAPPLYFRAMEBUFFERATTACHMENTCMAAINTELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glApplyFramebufferAttachmentCMAAINTEL'),
+    );
 
     return $function(...$args);
 }
 
 function glBeginPerfQueryINTEL(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBEGINPERFQUERYINTELPROC', GLFW_INSTANCE->glfwGetProcAddress('glBeginPerfQueryINTEL'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBEGINPERFQUERYINTELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBeginPerfQueryINTEL'),
+    );
 
     return $function(...$args);
 }
 
 function glCreatePerfQueryINTEL(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATEPERFQUERYINTELPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreatePerfQueryINTEL'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATEPERFQUERYINTELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreatePerfQueryINTEL'),
+    );
 
     return $function(...$args);
 }
 
 function glDeletePerfQueryINTEL(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETEPERFQUERYINTELPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeletePerfQueryINTEL'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETEPERFQUERYINTELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeletePerfQueryINTEL'),
+    );
 
     return $function(...$args);
 }
 
 function glEndPerfQueryINTEL(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENDPERFQUERYINTELPROC', GLFW_INSTANCE->glfwGetProcAddress('glEndPerfQueryINTEL'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENDPERFQUERYINTELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEndPerfQueryINTEL'),
+    );
 
     return $function(...$args);
 }
 
 function glGetFirstPerfQueryIdINTEL(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETFIRSTPERFQUERYIDINTELPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetFirstPerfQueryIdINTEL'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETFIRSTPERFQUERYIDINTELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetFirstPerfQueryIdINTEL'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNextPerfQueryIdINTEL(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNEXTPERFQUERYIDINTELPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNextPerfQueryIdINTEL'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNEXTPERFQUERYIDINTELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNextPerfQueryIdINTEL'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPerfCounterInfoINTEL(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPERFCOUNTERINFOINTELPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPerfCounterInfoINTEL'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPERFCOUNTERINFOINTELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPerfCounterInfoINTEL'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPerfQueryDataINTEL(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPERFQUERYDATAINTELPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPerfQueryDataINTEL'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPERFQUERYDATAINTELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPerfQueryDataINTEL'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPerfQueryIdByNameINTEL(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPERFQUERYIDBYNAMEINTELPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPerfQueryIdByNameINTEL'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPERFQUERYIDBYNAMEINTELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPerfQueryIdByNameINTEL'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPerfQueryInfoINTEL(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPERFQUERYINFOINTELPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPerfQueryInfoINTEL'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPERFQUERYINFOINTELPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPerfQueryInfoINTEL'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferParameteriMESA(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERPARAMETERIMESAPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferParameteriMESA'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERPARAMETERIMESAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferParameteriMESA'),
+    );
 
     return $function(...$args);
 }
 
 function glGetFramebufferParameterivMESA(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETFRAMEBUFFERPARAMETERIVMESAPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetFramebufferParameterivMESA'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETFRAMEBUFFERPARAMETERIVMESAPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetFramebufferParameterivMESA'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawArraysIndirectBindlessNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWARRAYSINDIRECTBINDLESSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawArraysIndirectBindlessNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWARRAYSINDIRECTBINDLESSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawArraysIndirectBindlessNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawElementsIndirectBindlessNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWELEMENTSINDIRECTBINDLESSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElementsIndirectBindlessNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWELEMENTSINDIRECTBINDLESSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElementsIndirectBindlessNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawArraysIndirectBindlessCountNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWARRAYSINDIRECTBINDLESSCOUNTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawArraysIndirectBindlessCountNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWARRAYSINDIRECTBINDLESSCOUNTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawArraysIndirectBindlessCountNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawElementsIndirectBindlessCountNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWELEMENTSINDIRECTBINDLESSCOUNTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElementsIndirectBindlessCountNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWELEMENTSINDIRECTBINDLESSCOUNTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawElementsIndirectBindlessCountNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureHandleNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTUREHANDLENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureHandleNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTUREHANDLENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureHandleNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetTextureSamplerHandleNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETTEXTURESAMPLERHANDLENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetTextureSamplerHandleNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETTEXTURESAMPLERHANDLENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetTextureSamplerHandleNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMakeTextureHandleResidentNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAKETEXTUREHANDLERESIDENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMakeTextureHandleResidentNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAKETEXTUREHANDLERESIDENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMakeTextureHandleResidentNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMakeTextureHandleNonResidentNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAKETEXTUREHANDLENONRESIDENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMakeTextureHandleNonResidentNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAKETEXTUREHANDLENONRESIDENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMakeTextureHandleNonResidentNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetImageHandleNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETIMAGEHANDLENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetImageHandleNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETIMAGEHANDLENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetImageHandleNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMakeImageHandleResidentNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAKEIMAGEHANDLERESIDENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMakeImageHandleResidentNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAKEIMAGEHANDLERESIDENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMakeImageHandleResidentNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMakeImageHandleNonResidentNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAKEIMAGEHANDLENONRESIDENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMakeImageHandleNonResidentNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAKEIMAGEHANDLENONRESIDENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMakeImageHandleNonResidentNV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformHandleui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMHANDLEUI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformHandleui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMHANDLEUI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformHandleui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformHandleui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMHANDLEUI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformHandleui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMHANDLEUI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformHandleui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformHandleui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMHANDLEUI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformHandleui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMHANDLEUI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformHandleui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformHandleui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMHANDLEUI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformHandleui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMHANDLEUI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformHandleui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glIsTextureHandleResidentNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISTEXTUREHANDLERESIDENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsTextureHandleResidentNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISTEXTUREHANDLERESIDENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsTextureHandleResidentNV'),
+    );
 
     return $function(...$args);
 }
 
 function glIsImageHandleResidentNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISIMAGEHANDLERESIDENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsImageHandleResidentNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISIMAGEHANDLERESIDENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsImageHandleResidentNV'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendParameteriNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDPARAMETERINVPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendParameteriNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDPARAMETERINVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendParameteriNV'),
+    );
 
     return $function(...$args);
 }
 
 function glBlendBarrierNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBLENDBARRIERNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glBlendBarrierNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBLENDBARRIERNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBlendBarrierNV'),
+    );
 
     return $function(...$args);
 }
 
 function glViewportPositionWScaleNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVIEWPORTPOSITIONWSCALENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glViewportPositionWScaleNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVIEWPORTPOSITIONWSCALENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glViewportPositionWScaleNV'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateStatesNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATESTATESNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateStatesNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATESTATESNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateStatesNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteStatesNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETESTATESNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteStatesNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETESTATESNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteStatesNV'),
+    );
 
     return $function(...$args);
 }
 
 function glIsStateNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISSTATENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsStateNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISSTATENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsStateNV'),
+    );
 
     return $function(...$args);
 }
 
 function glStateCaptureNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTATECAPTURENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glStateCaptureNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTATECAPTURENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStateCaptureNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetCommandHeaderNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETCOMMANDHEADERNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetCommandHeaderNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETCOMMANDHEADERNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetCommandHeaderNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetStageIndexNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSTAGEINDEXNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetStageIndexNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSTAGEINDEXNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetStageIndexNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawCommandsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWCOMMANDSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawCommandsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWCOMMANDSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawCommandsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawCommandsAddressNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWCOMMANDSADDRESSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawCommandsAddressNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWCOMMANDSADDRESSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawCommandsAddressNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawCommandsStatesNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWCOMMANDSSTATESNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawCommandsStatesNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWCOMMANDSSTATESNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawCommandsStatesNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawCommandsStatesAddressNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWCOMMANDSSTATESADDRESSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawCommandsStatesAddressNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWCOMMANDSSTATESADDRESSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawCommandsStatesAddressNV'),
+    );
 
     return $function(...$args);
 }
 
 function glCreateCommandListsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCREATECOMMANDLISTSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCreateCommandListsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCREATECOMMANDLISTSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCreateCommandListsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDeleteCommandListsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETECOMMANDLISTSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeleteCommandListsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETECOMMANDLISTSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeleteCommandListsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glIsCommandListNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISCOMMANDLISTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsCommandListNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISCOMMANDLISTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsCommandListNV'),
+    );
 
     return $function(...$args);
 }
 
 function glListDrawCommandsStatesClientNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLLISTDRAWCOMMANDSSTATESCLIENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glListDrawCommandsStatesClientNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLLISTDRAWCOMMANDSSTATESCLIENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glListDrawCommandsStatesClientNV'),
+    );
 
     return $function(...$args);
 }
 
 function glCommandListSegmentsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMMANDLISTSEGMENTSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCommandListSegmentsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMMANDLISTSEGMENTSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCommandListSegmentsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glCompileCommandListNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOMPILECOMMANDLISTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCompileCommandListNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOMPILECOMMANDLISTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCompileCommandListNV'),
+    );
 
     return $function(...$args);
 }
 
 function glCallCommandListNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCALLCOMMANDLISTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCallCommandListNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCALLCOMMANDLISTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCallCommandListNV'),
+    );
 
     return $function(...$args);
 }
 
 function glBeginConditionalRenderNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBEGINCONDITIONALRENDERNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glBeginConditionalRenderNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBEGINCONDITIONALRENDERNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBeginConditionalRenderNV'),
+    );
 
     return $function(...$args);
 }
 
 function glEndConditionalRenderNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLENDCONDITIONALRENDERNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glEndConditionalRenderNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLENDCONDITIONALRENDERNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEndConditionalRenderNV'),
+    );
 
     return $function(...$args);
 }
 
 function glSubpixelPrecisionBiasNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSUBPIXELPRECISIONBIASNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glSubpixelPrecisionBiasNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSUBPIXELPRECISIONBIASNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSubpixelPrecisionBiasNV'),
+    );
 
     return $function(...$args);
 }
 
 function glConservativeRasterParameterfNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCONSERVATIVERASTERPARAMETERFNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glConservativeRasterParameterfNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCONSERVATIVERASTERPARAMETERFNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glConservativeRasterParameterfNV'),
+    );
 
     return $function(...$args);
 }
 
 function glConservativeRasterParameteriNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCONSERVATIVERASTERPARAMETERINVPROC', GLFW_INSTANCE->glfwGetProcAddress('glConservativeRasterParameteriNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCONSERVATIVERASTERPARAMETERINVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glConservativeRasterParameteriNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDepthRangedNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEPTHRANGEDNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDepthRangedNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEPTHRANGEDNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDepthRangedNV'),
+    );
 
     return $function(...$args);
 }
 
 function glClearDepthdNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCLEARDEPTHDNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glClearDepthdNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCLEARDEPTHDNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glClearDepthdNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDepthBoundsdNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDEPTHBOUNDSDNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDepthBoundsdNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDEPTHBOUNDSDNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDepthBoundsdNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawVkImageNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWVKIMAGENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawVkImageNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWVKIMAGENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawVkImageNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVkProcAddrNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVKPROCADDRNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVkProcAddrNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVKPROCADDRNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVkProcAddrNV'),
+    );
 
     return $function(...$args);
 }
 
 function glWaitVkSemaphoreNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLWAITVKSEMAPHORENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glWaitVkSemaphoreNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLWAITVKSEMAPHORENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glWaitVkSemaphoreNV'),
+    );
 
     return $function(...$args);
 }
 
 function glSignalVkSemaphoreNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSIGNALVKSEMAPHORENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glSignalVkSemaphoreNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSIGNALVKSEMAPHORENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSignalVkSemaphoreNV'),
+    );
 
     return $function(...$args);
 }
 
 function glSignalVkFenceNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSIGNALVKFENCENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glSignalVkFenceNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSIGNALVKFENCENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSignalVkFenceNV'),
+    );
 
     return $function(...$args);
 }
 
 function glFragmentCoverageColorNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAGMENTCOVERAGECOLORNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glFragmentCoverageColorNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAGMENTCOVERAGECOLORNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFragmentCoverageColorNV'),
+    );
 
     return $function(...$args);
 }
 
 function glCoverageModulationTableNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOVERAGEMODULATIONTABLENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCoverageModulationTableNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOVERAGEMODULATIONTABLENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCoverageModulationTableNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetCoverageModulationTableNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETCOVERAGEMODULATIONTABLENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetCoverageModulationTableNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETCOVERAGEMODULATIONTABLENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetCoverageModulationTableNV'),
+    );
 
     return $function(...$args);
 }
 
 function glCoverageModulationNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOVERAGEMODULATIONNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCoverageModulationNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOVERAGEMODULATIONNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCoverageModulationNV'),
+    );
 
     return $function(...$args);
 }
 
 function glRenderbufferStorageMultisampleCoverageNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLRENDERBUFFERSTORAGEMULTISAMPLECOVERAGENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glRenderbufferStorageMultisampleCoverageNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLRENDERBUFFERSTORAGEMULTISAMPLECOVERAGENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glRenderbufferStorageMultisampleCoverageNV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1i64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1I64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1i64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1I64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1i64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2i64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2I64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2i64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2I64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2i64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3i64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3I64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3i64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3I64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3i64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4i64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4I64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4i64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4I64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4i64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1i64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1I64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1i64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1I64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1i64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2i64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2I64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2i64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2I64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2i64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3i64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3I64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3i64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3I64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3i64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4i64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4I64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4i64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4I64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4i64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1ui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1UI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1ui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1UI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1ui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2ui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2UI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2ui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2UI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2ui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3ui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3UI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3ui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3UI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3ui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4ui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4UI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4ui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4UI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4ui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform1ui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM1UI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform1ui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM1UI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform1ui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform2ui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM2UI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform2ui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM2UI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform2ui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform3ui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM3UI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform3ui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM3UI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform3ui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniform4ui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORM4UI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniform4ui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORM4UI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniform4ui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetUniformi64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETUNIFORMI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetUniformi64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETUNIFORMI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetUniformi64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1i64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1I64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1i64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1I64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1i64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2i64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2I64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2i64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2I64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2i64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3i64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3I64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3i64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3I64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3i64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4i64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4I64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4i64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4I64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4i64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1i64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1I64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1i64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1I64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1i64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2i64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2I64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2i64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2I64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2i64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3i64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3I64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3i64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3I64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3i64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4i64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4I64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4i64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4I64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4i64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1ui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1UI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1ui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1UI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1ui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2ui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2UI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2ui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2UI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2ui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3ui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3UI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3ui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3UI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3ui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4ui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4UI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4ui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4UI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4ui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform1ui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM1UI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1ui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM1UI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform1ui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform2ui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM2UI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2ui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM2UI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform2ui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform3ui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM3UI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3ui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM3UI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform3ui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniform4ui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORM4UI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4ui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORM4UI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniform4ui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetInternalformatSampleivNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETINTERNALFORMATSAMPLEIVNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetInternalformatSampleivNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETINTERNALFORMATSAMPLEIVNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetInternalformatSampleivNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetMemoryObjectDetachedResourcesuivNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETMEMORYOBJECTDETACHEDRESOURCESUIVNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetMemoryObjectDetachedResourcesuivNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETMEMORYOBJECTDETACHEDRESOURCESUIVNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetMemoryObjectDetachedResourcesuivNV'),
+    );
 
     return $function(...$args);
 }
 
 function glResetMemoryObjectParameterNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLRESETMEMORYOBJECTPARAMETERNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glResetMemoryObjectParameterNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLRESETMEMORYOBJECTPARAMETERNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glResetMemoryObjectParameterNV'),
+    );
 
     return $function(...$args);
 }
 
 function glTexAttachMemoryNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXATTACHMEMORYNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexAttachMemoryNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXATTACHMEMORYNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexAttachMemoryNV'),
+    );
 
     return $function(...$args);
 }
 
 function glBufferAttachMemoryNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBUFFERATTACHMEMORYNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glBufferAttachMemoryNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBUFFERATTACHMEMORYNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBufferAttachMemoryNV'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureAttachMemoryNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREATTACHMEMORYNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureAttachMemoryNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREATTACHMEMORYNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureAttachMemoryNV'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedBufferAttachMemoryNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDBUFFERATTACHMEMORYNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferAttachMemoryNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDBUFFERATTACHMEMORYNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferAttachMemoryNV'),
+    );
 
     return $function(...$args);
 }
 
 function glBufferPageCommitmentMemNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBUFFERPAGECOMMITMENTMEMNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glBufferPageCommitmentMemNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBUFFERPAGECOMMITMENTMEMNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBufferPageCommitmentMemNV'),
+    );
 
     return $function(...$args);
 }
 
 function glTexPageCommitmentMemNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXPAGECOMMITMENTMEMNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexPageCommitmentMemNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXPAGECOMMITMENTMEMNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexPageCommitmentMemNV'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedBufferPageCommitmentMemNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDBUFFERPAGECOMMITMENTMEMNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferPageCommitmentMemNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDBUFFERPAGECOMMITMENTMEMNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedBufferPageCommitmentMemNV'),
+    );
 
     return $function(...$args);
 }
 
 function glTexturePageCommitmentMemNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREPAGECOMMITMENTMEMNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexturePageCommitmentMemNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREPAGECOMMITMENTMEMNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexturePageCommitmentMemNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawMeshTasksNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWMESHTASKSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawMeshTasksNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWMESHTASKSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawMeshTasksNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDrawMeshTasksIndirectNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDRAWMESHTASKSINDIRECTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDrawMeshTasksIndirectNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDRAWMESHTASKSINDIRECTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDrawMeshTasksIndirectNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawMeshTasksIndirectNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWMESHTASKSINDIRECTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawMeshTasksIndirectNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWMESHTASKSINDIRECTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawMeshTasksIndirectNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMultiDrawMeshTasksIndirectCountNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMULTIDRAWMESHTASKSINDIRECTCOUNTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawMeshTasksIndirectCountNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMULTIDRAWMESHTASKSINDIRECTCOUNTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMultiDrawMeshTasksIndirectCountNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGenPathsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGENPATHSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGenPathsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGENPATHSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGenPathsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glDeletePathsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLDELETEPATHSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glDeletePathsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLDELETEPATHSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glDeletePathsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glIsPathNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISPATHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsPathNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISPATHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsPathNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathCommandsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHCOMMANDSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathCommandsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHCOMMANDSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathCommandsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathCoordsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHCOORDSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathCoordsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHCOORDSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathCoordsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathSubCommandsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHSUBCOMMANDSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathSubCommandsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHSUBCOMMANDSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathSubCommandsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathSubCoordsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHSUBCOORDSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathSubCoordsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHSUBCOORDSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathSubCoordsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathStringNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHSTRINGNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathStringNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHSTRINGNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathStringNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathGlyphsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHGLYPHSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathGlyphsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHGLYPHSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathGlyphsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathGlyphRangeNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHGLYPHRANGENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathGlyphRangeNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHGLYPHRANGENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathGlyphRangeNV'),
+    );
 
     return $function(...$args);
 }
 
 function glWeightPathsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLWEIGHTPATHSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glWeightPathsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLWEIGHTPATHSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glWeightPathsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glCopyPathNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOPYPATHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCopyPathNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOPYPATHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCopyPathNV'),
+    );
 
     return $function(...$args);
 }
 
 function glInterpolatePathsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLINTERPOLATEPATHSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glInterpolatePathsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLINTERPOLATEPATHSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glInterpolatePathsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glTransformPathNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTRANSFORMPATHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTransformPathNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTRANSFORMPATHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTransformPathNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathParameterivNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHPARAMETERIVNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathParameterivNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHPARAMETERIVNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathParameterivNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathParameteriNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHPARAMETERINVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathParameteriNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHPARAMETERINVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathParameteriNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathParameterfvNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHPARAMETERFVNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathParameterfvNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHPARAMETERFVNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathParameterfvNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathParameterfNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHPARAMETERFNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathParameterfNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHPARAMETERFNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathParameterfNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathDashArrayNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHDASHARRAYNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathDashArrayNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHDASHARRAYNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathDashArrayNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathStencilFuncNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHSTENCILFUNCNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathStencilFuncNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHSTENCILFUNCNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathStencilFuncNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathStencilDepthOffsetNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHSTENCILDEPTHOFFSETNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathStencilDepthOffsetNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHSTENCILDEPTHOFFSETNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathStencilDepthOffsetNV'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilFillPathNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILFILLPATHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilFillPathNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILFILLPATHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilFillPathNV'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilStrokePathNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILSTROKEPATHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilStrokePathNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILSTROKEPATHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilStrokePathNV'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilFillPathInstancedNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILFILLPATHINSTANCEDNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilFillPathInstancedNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILFILLPATHINSTANCEDNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilFillPathInstancedNV'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilStrokePathInstancedNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILSTROKEPATHINSTANCEDNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilStrokePathInstancedNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILSTROKEPATHINSTANCEDNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilStrokePathInstancedNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathCoverDepthFuncNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHCOVERDEPTHFUNCNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathCoverDepthFuncNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHCOVERDEPTHFUNCNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathCoverDepthFuncNV'),
+    );
 
     return $function(...$args);
 }
 
 function glCoverFillPathNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOVERFILLPATHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCoverFillPathNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOVERFILLPATHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCoverFillPathNV'),
+    );
 
     return $function(...$args);
 }
 
 function glCoverStrokePathNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOVERSTROKEPATHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCoverStrokePathNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOVERSTROKEPATHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCoverStrokePathNV'),
+    );
 
     return $function(...$args);
 }
 
 function glCoverFillPathInstancedNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOVERFILLPATHINSTANCEDNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCoverFillPathInstancedNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOVERFILLPATHINSTANCEDNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCoverFillPathInstancedNV'),
+    );
 
     return $function(...$args);
 }
 
 function glCoverStrokePathInstancedNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOVERSTROKEPATHINSTANCEDNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glCoverStrokePathInstancedNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOVERSTROKEPATHINSTANCEDNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glCoverStrokePathInstancedNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPathParameterivNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPATHPARAMETERIVNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPathParameterivNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPATHPARAMETERIVNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPathParameterivNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPathParameterfvNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPATHPARAMETERFVNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPathParameterfvNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPATHPARAMETERFVNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPathParameterfvNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPathCommandsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPATHCOMMANDSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPathCommandsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPATHCOMMANDSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPathCommandsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPathCoordsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPATHCOORDSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPathCoordsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPATHCOORDSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPathCoordsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPathDashArrayNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPATHDASHARRAYNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPathDashArrayNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPATHDASHARRAYNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPathDashArrayNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPathMetricsNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPATHMETRICSNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPathMetricsNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPATHMETRICSNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPathMetricsNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPathMetricRangeNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPATHMETRICRANGENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPathMetricRangeNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPATHMETRICRANGENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPathMetricRangeNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPathSpacingNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPATHSPACINGNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPathSpacingNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPATHSPACINGNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPathSpacingNV'),
+    );
 
     return $function(...$args);
 }
 
 function glIsPointInFillPathNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISPOINTINFILLPATHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsPointInFillPathNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISPOINTINFILLPATHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsPointInFillPathNV'),
+    );
 
     return $function(...$args);
 }
 
 function glIsPointInStrokePathNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISPOINTINSTROKEPATHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsPointInStrokePathNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISPOINTINSTROKEPATHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsPointInStrokePathNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetPathLengthNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPATHLENGTHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetPathLengthNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPATHLENGTHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetPathLengthNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPointAlongPathNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPOINTALONGPATHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPointAlongPathNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPOINTALONGPATHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPointAlongPathNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixLoad3x2fNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXLOAD3X2FNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoad3x2fNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXLOAD3X2FNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoad3x2fNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixLoad3x3fNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXLOAD3X3FNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoad3x3fNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXLOAD3X3FNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoad3x3fNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixLoadTranspose3x3fNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXLOADTRANSPOSE3X3FNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoadTranspose3x3fNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXLOADTRANSPOSE3X3FNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixLoadTranspose3x3fNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixMult3x2fNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXMULT3X2FNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixMult3x2fNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXMULT3X2FNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixMult3x2fNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixMult3x3fNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXMULT3X3FNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixMult3x3fNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXMULT3X3FNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixMult3x3fNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMatrixMultTranspose3x3fNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMATRIXMULTTRANSPOSE3X3FNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMatrixMultTranspose3x3fNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMATRIXMULTTRANSPOSE3X3FNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMatrixMultTranspose3x3fNV'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilThenCoverFillPathNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILTHENCOVERFILLPATHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilThenCoverFillPathNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILTHENCOVERFILLPATHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilThenCoverFillPathNV'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilThenCoverStrokePathNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILTHENCOVERSTROKEPATHNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilThenCoverStrokePathNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILTHENCOVERSTROKEPATHNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilThenCoverStrokePathNV'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilThenCoverFillPathInstancedNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILTHENCOVERFILLPATHINSTANCEDNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilThenCoverFillPathInstancedNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILTHENCOVERFILLPATHINSTANCEDNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilThenCoverFillPathInstancedNV'),
+    );
 
     return $function(...$args);
 }
 
 function glStencilThenCoverStrokePathInstancedNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSTENCILTHENCOVERSTROKEPATHINSTANCEDNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glStencilThenCoverStrokePathInstancedNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSTENCILTHENCOVERSTROKEPATHINSTANCEDNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glStencilThenCoverStrokePathInstancedNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathGlyphIndexRangeNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHGLYPHINDEXRANGENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathGlyphIndexRangeNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHGLYPHINDEXRANGENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathGlyphIndexRangeNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathGlyphIndexArrayNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHGLYPHINDEXARRAYNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathGlyphIndexArrayNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHGLYPHINDEXARRAYNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathGlyphIndexArrayNV'),
+    );
 
     return $function(...$args);
 }
 
 function glPathMemoryGlyphIndexArrayNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPATHMEMORYGLYPHINDEXARRAYNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glPathMemoryGlyphIndexArrayNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPATHMEMORYGLYPHINDEXARRAYNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glPathMemoryGlyphIndexArrayNV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramPathFragmentInputGenNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMPATHFRAGMENTINPUTGENNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramPathFragmentInputGenNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMPATHFRAGMENTINPUTGENNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramPathFragmentInputGenNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetProgramResourcefvNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETPROGRAMRESOURCEFVNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetProgramResourcefvNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETPROGRAMRESOURCEFVNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetProgramResourcefvNV'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferSampleLocationsfvNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERSAMPLELOCATIONSFVNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferSampleLocationsfvNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERSAMPLELOCATIONSFVNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferSampleLocationsfvNV'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferSampleLocationsfvNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERSAMPLELOCATIONSFVNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferSampleLocationsfvNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERSAMPLELOCATIONSFVNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferSampleLocationsfvNV'),
+    );
 
     return $function(...$args);
 }
 
 function glResolveDepthValuesNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLRESOLVEDEPTHVALUESNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glResolveDepthValuesNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLRESOLVEDEPTHVALUESNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glResolveDepthValuesNV'),
+    );
 
     return $function(...$args);
 }
 
 function glScissorExclusiveNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSCISSOREXCLUSIVENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glScissorExclusiveNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSCISSOREXCLUSIVENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glScissorExclusiveNV'),
+    );
 
     return $function(...$args);
 }
 
 function glScissorExclusiveArrayvNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSCISSOREXCLUSIVEARRAYVNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glScissorExclusiveArrayvNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSCISSOREXCLUSIVEARRAYVNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glScissorExclusiveArrayvNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMakeBufferResidentNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAKEBUFFERRESIDENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMakeBufferResidentNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAKEBUFFERRESIDENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMakeBufferResidentNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMakeBufferNonResidentNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAKEBUFFERNONRESIDENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMakeBufferNonResidentNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAKEBUFFERNONRESIDENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMakeBufferNonResidentNV'),
+    );
 
     return $function(...$args);
 }
 
 function glIsBufferResidentNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISBUFFERRESIDENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsBufferResidentNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISBUFFERRESIDENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsBufferResidentNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMakeNamedBufferResidentNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAKENAMEDBUFFERRESIDENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMakeNamedBufferResidentNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAKENAMEDBUFFERRESIDENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMakeNamedBufferResidentNV'),
+    );
 
     return $function(...$args);
 }
 
 function glMakeNamedBufferNonResidentNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLMAKENAMEDBUFFERNONRESIDENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glMakeNamedBufferNonResidentNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLMAKENAMEDBUFFERNONRESIDENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glMakeNamedBufferNonResidentNV'),
+    );
 
     return $function(...$args);
 }
 
 function glIsNamedBufferResidentNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLISNAMEDBUFFERRESIDENTNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glIsNamedBufferResidentNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLISNAMEDBUFFERRESIDENTNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIsNamedBufferResidentNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetBufferParameterui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETBUFFERPARAMETERUI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetBufferParameterui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETBUFFERPARAMETERUI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetBufferParameterui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetNamedBufferParameterui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETNAMEDBUFFERPARAMETERUI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferParameterui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETNAMEDBUFFERPARAMETERUI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetNamedBufferParameterui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetIntegerui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETINTEGERUI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetIntegerui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETINTEGERUI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetIntegerui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMUI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMUI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glUniformui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLUNIFORMUI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glUniformui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLUNIFORMUI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glUniformui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetUniformui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETUNIFORMUI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetUniformui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETUNIFORMUI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetUniformui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMUI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMUI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glProgramUniformui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLPROGRAMUNIFORMUI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLPROGRAMUNIFORMUI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glProgramUniformui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glBindShadingRateImageNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBINDSHADINGRATEIMAGENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glBindShadingRateImageNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBINDSHADINGRATEIMAGENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBindShadingRateImageNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetShadingRateImagePaletteNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSHADINGRATEIMAGEPALETTENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetShadingRateImagePaletteNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSHADINGRATEIMAGEPALETTENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetShadingRateImagePaletteNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetShadingRateSampleLocationivNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETSHADINGRATESAMPLELOCATIONIVNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetShadingRateSampleLocationivNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETSHADINGRATESAMPLELOCATIONIVNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetShadingRateSampleLocationivNV'),
+    );
 
     return $function(...$args);
 }
 
 function glShadingRateImageBarrierNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSHADINGRATEIMAGEBARRIERNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glShadingRateImageBarrierNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSHADINGRATEIMAGEBARRIERNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glShadingRateImageBarrierNV'),
+    );
 
     return $function(...$args);
 }
 
 function glShadingRateImagePaletteNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSHADINGRATEIMAGEPALETTENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glShadingRateImagePaletteNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSHADINGRATEIMAGEPALETTENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glShadingRateImagePaletteNV'),
+    );
 
     return $function(...$args);
 }
 
 function glShadingRateSampleOrderNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSHADINGRATESAMPLEORDERNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glShadingRateSampleOrderNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSHADINGRATESAMPLEORDERNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glShadingRateSampleOrderNV'),
+    );
 
     return $function(...$args);
 }
 
 function glShadingRateSampleOrderCustomNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSHADINGRATESAMPLEORDERCUSTOMNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glShadingRateSampleOrderCustomNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSHADINGRATESAMPLEORDERCUSTOMNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glShadingRateSampleOrderCustomNV'),
+    );
 
     return $function(...$args);
 }
 
 function glTextureBarrierNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXTUREBARRIERNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTextureBarrierNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXTUREBARRIERNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTextureBarrierNV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL1i64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL1I64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1i64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL1I64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1i64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL2i64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL2I64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL2i64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL2I64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL2i64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL3i64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL3I64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL3i64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL3I64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL3i64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL4i64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL4I64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL4i64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL4I64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL4i64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL1i64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL1I64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1i64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL1I64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1i64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL2i64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL2I64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL2i64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL2I64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL2i64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL3i64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL3I64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL3i64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL3I64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL3i64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL4i64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL4I64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL4i64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL4I64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL4i64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL1ui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL1UI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1ui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL1UI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1ui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL2ui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL2UI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL2ui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL2UI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL2ui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL3ui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL3UI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL3ui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL3UI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL3ui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL4ui64NV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL4UI64NVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL4ui64NV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL4UI64NVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL4ui64NV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL1ui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL1UI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1ui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL1UI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL1ui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL2ui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL2UI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL2ui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL2UI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL2ui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL3ui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL3UI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL3ui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL3UI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL3ui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribL4ui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBL4UI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL4ui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBL4UI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribL4ui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexAttribLi64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXATTRIBLI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribLi64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXATTRIBLI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribLi64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetVertexAttribLui64vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETVERTEXATTRIBLUI64VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribLui64vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETVERTEXATTRIBLUI64VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetVertexAttribLui64vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribLFormatNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBLFORMATNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribLFormatNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBLFORMATNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribLFormatNV'),
+    );
 
     return $function(...$args);
 }
 
 function glBufferAddressRangeNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLBUFFERADDRESSRANGENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glBufferAddressRangeNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLBUFFERADDRESSRANGENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glBufferAddressRangeNV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexFormatNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXFORMATNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexFormatNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXFORMATNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexFormatNV'),
+    );
 
     return $function(...$args);
 }
 
 function glNormalFormatNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNORMALFORMATNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glNormalFormatNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNORMALFORMATNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNormalFormatNV'),
+    );
 
     return $function(...$args);
 }
 
 function glColorFormatNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLCOLORFORMATNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glColorFormatNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLCOLORFORMATNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glColorFormatNV'),
+    );
 
     return $function(...$args);
 }
 
 function glIndexFormatNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLINDEXFORMATNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glIndexFormatNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLINDEXFORMATNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glIndexFormatNV'),
+    );
 
     return $function(...$args);
 }
 
 function glTexCoordFormatNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLTEXCOORDFORMATNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glTexCoordFormatNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLTEXCOORDFORMATNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glTexCoordFormatNV'),
+    );
 
     return $function(...$args);
 }
 
 function glEdgeFlagFormatNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLEDGEFLAGFORMATNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glEdgeFlagFormatNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLEDGEFLAGFORMATNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glEdgeFlagFormatNV'),
+    );
 
     return $function(...$args);
 }
 
 function glSecondaryColorFormatNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLSECONDARYCOLORFORMATNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glSecondaryColorFormatNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLSECONDARYCOLORFORMATNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glSecondaryColorFormatNV'),
+    );
 
     return $function(...$args);
 }
 
 function glFogCoordFormatNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFOGCOORDFORMATNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glFogCoordFormatNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFOGCOORDFORMATNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFogCoordFormatNV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribFormatNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBFORMATNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribFormatNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBFORMATNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribFormatNV'),
+    );
 
     return $function(...$args);
 }
 
 function glVertexAttribIFormatNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVERTEXATTRIBIFORMATNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribIFormatNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVERTEXATTRIBIFORMATNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glVertexAttribIFormatNV'),
+    );
 
     return $function(...$args);
 }
 
 function glGetIntegerui64i_vNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLGETINTEGERUI64I_VNVPROC', GLFW_INSTANCE->glfwGetProcAddress('glGetIntegerui64i_vNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLGETINTEGERUI64I_VNVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glGetIntegerui64i_vNV'),
+    );
 
     return $function(...$args);
 }
 
 function glViewportSwizzleNV(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLVIEWPORTSWIZZLENVPROC', GLFW_INSTANCE->glfwGetProcAddress('glViewportSwizzleNV'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLVIEWPORTSWIZZLENVPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glViewportSwizzleNV'),
+    );
 
     return $function(...$args);
 }
 
 function glFramebufferTextureMultiviewOVR(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLFRAMEBUFFERTEXTUREMULTIVIEWOVRPROC', GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTextureMultiviewOVR'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLFRAMEBUFFERTEXTUREMULTIVIEWOVRPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glFramebufferTextureMultiviewOVR'),
+    );
 
     return $function(...$args);
 }
 
 function glNamedFramebufferTextureMultiviewOVR(mixed ...$args): mixed
 {
-    static $function = GLFW_INSTANCE->cast('PFNGLNAMEDFRAMEBUFFERTEXTUREMULTIVIEWOVRPROC', GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTextureMultiviewOVR'));
+    static $function = GLFW_INSTANCE->cast(
+        'PFNGLNAMEDFRAMEBUFFERTEXTUREMULTIVIEWOVRPROC',
+        GLFW_INSTANCE->glfwGetProcAddress('glNamedFramebufferTextureMultiviewOVR'),
+    );
 
     return $function(...$args);
 }

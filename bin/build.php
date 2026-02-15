@@ -155,7 +155,10 @@ foreach ($openglMatches as [1 => $type, 2 => $function]) {
 
         function $function(mixed ...\$args): void
         {
-            static \$function = GLFW_INSTANCE->cast('$proc', GLFW_INSTANCE->glfwGetProcAddress('$function'));
+            static \$function = GLFW_INSTANCE->cast(
+                '$proc',
+                GLFW_INSTANCE->glfwGetProcAddress('$function'),
+            );
 
             \$function(...\$args);
         }
@@ -168,7 +171,10 @@ foreach ($openglMatches as [1 => $type, 2 => $function]) {
 
         function $function(mixed ...\$args): mixed
         {
-            static \$function = GLFW_INSTANCE->cast('$proc', GLFW_INSTANCE->glfwGetProcAddress('$function'));
+            static \$function = GLFW_INSTANCE->cast(
+                '$proc',
+                GLFW_INSTANCE->glfwGetProcAddress('$function'),
+            );
 
             return \$function(...\$args);
         }
