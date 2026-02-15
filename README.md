@@ -1,3 +1,4 @@
 - **01. Hello Window**
 - [02. Hello OpenGL](https://github.com/SerafimArts/OpenGL-Tutorial/tree/02.hello-opengl)
 - [03. Hello Extensions](https://github.com/SerafimArts/OpenGL-Tutorial/tree/03.hello-extensions)
+- [04. First Triangle](https://github.com/SerafimArts/OpenGL-Tutorial/tree/04.first-triangle)
