@@ -14,11 +14,6 @@ function glfwCast(string $type, CData $ptr): CData
     return GLFW_INSTANCE->cast($type, $ptr);
 }
 
-function glfwType(string $type): \FFI\CType
-{
-    return GLFW_INSTANCE->type($type);
-}
-
 function glfwFloatArray(array $values): CData
 {
     $count = count($values);
