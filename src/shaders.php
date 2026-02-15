@@ -6,7 +6,7 @@ use FFI\CData;
 
 function load_file(string $pathname): CData
 {
-    $content = file_get_contents($pathname);
+    $content = file_get_contents($pathname) . "\0";
     $size = strlen($content);
 
     $result = glfwNew("char[$size]", false);
