@@ -1,2 +1,3 @@
 - [01. Hello Window](https://github.com/SerafimArts/OpenGL-Tutorial/tree/01.hello-window)
-- **02. Hello OpenGL**
+- [02. Hello OpenGL](https://github.com/SerafimArts/OpenGL-Tutorial/tree/02.hello-opengl)
+- **03. Hello Extensions**
