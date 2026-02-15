@@ -34,14 +34,11 @@ function shader_get_error(int $shaderId): ?string
 
 function shader_from_file(string $pathname, int $type): int
 {
-    $shaderId = glCreateShader($type);
     $shaderSource = glfwCast('char*', $shader = load_file($pathname));
-
-    $errorLength = glfwNew('int');
-    $errorLength->cdata = 0;
 
     // Compile Shader
     echo sprintf("Compiling Shader: %s\n", $pathname);
+    $shaderId = glCreateShader($type);
     glShaderSource($shaderId, 1, FFI::addr($shaderSource), null);
     glCompileShader($shaderId);
 
