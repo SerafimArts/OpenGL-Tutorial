@@ -3,4 +3,5 @@
 - [02. Hello OpenGL](https://github.com/SerafimArts/OpenGL-Tutorial/tree/02.hello-opengl)
   - Article (RU): https://habr.com/ru/articles/1012786/
 - [03. Hello Extensions](https://github.com/SerafimArts/OpenGL-Tutorial/tree/03.hello-extensions)
+  - Article (RU): https://habr.com/ru/articles/1017524/
 - **04. First Triangle**
